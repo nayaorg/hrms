@@ -1,0 +1,12 @@
+[2014-06-17 14:23:16] select EMP_NAME from EMPLOYEE where EMP_DEPT = 1 = :EMP_DEPT = 1
+[2014-06-17 14:23:16] [DbAdapter][getRow]SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[2014-06-17 14:25:14] select EMP_NAME from EMPLOYEE where EMP_DEPT = 1 = :EMP_DEPT = 1
+[2014-06-17 14:25:14] [DbAdapter][getRow]SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[2014-06-17 14:27:38] [View]Invalid argument supplied for foreach() - C:\www\hrms\code\lib\Util.php on line 131
+[2014-06-17 16:31:03] [Service]Class 'TimesheetTable' not found - C:\www\hrms\code\controllers\claims\TravelPlan.php on line 172
+[2014-06-17 16:31:06] [Service]Class 'TimesheetTable' not found - C:\www\hrms\code\controllers\claims\TravelPlan.php on line 172
+[2014-06-17 16:31:46] [Service]Undefined class constant 'C_START_DATE' - C:\www\hrms\code\controllers\claims\TravelPlan.php on line 172
+[2014-06-17 16:32:30] [Service]Undefined class constant 'C_EXPIRY' - C:\www\hrms\code\controllers\claims\TravelPlan.php on line 174
+[2014-06-17 16:45:47] [View]Undefined index: COUNTRY_ID - C:\www\hrms\code\controllers\claims\TravelPlan.php on line 153
+[2014-06-17 16:48:45] [View]Undefined index: COUNTRY_DESC - C:\www\hrms\code\controllers\claims\TravelPlan.php on line 153
+[2014-06-17 17:26:40] [Service]Undefined variable: start - C:\www\hrms\code\controllers\claims\TravelPlan.php on line 110

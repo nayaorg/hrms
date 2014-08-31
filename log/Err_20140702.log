@@ -1,0 +1,120 @@
+[2014-07-02 09:02:44] delete C:\www\hrms\code/../web/claims/temp/claim_doc_1404262957_1.jpg
+[2014-07-02 09:02:44] [Report]Undefined variable: err - C:\www\hrms\code\lib\ClaimUpload.php on line 51
+[2014-07-02 09:06:25] delete C:\www\hrms\code/../web/claims/temp/claim_doc_1404263174_1.jpg
+[2014-07-02 09:06:25] [Report]Undefined variable: newfile - C:\www\hrms\code\lib\ClaimUpload.php on line 47
+[2014-07-02 09:12:13] delete C:\www\hrms\code/../web/claims/temp/claim_doc_1404263529_1.jpg
+[2014-07-02 09:18:27] delete C:\www\hrms\code/../web/claims/temp/claim_doc_1404263902_3.jpg
+[2014-07-02 09:18:28] delete C:\www\hrms\code/../web/claims/temp/claim_doc_1404263901_2.jpg
+[2014-07-02 09:18:29] delete C:\www\hrms\code/../web/claims/temp/claim_doc_1404263903_4.jpg
+[2014-07-02 11:51:14] [View]syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' - C:\www\hrms\code\controllers\claims\Claim.php on line 374
+[2014-07-02 11:51:41] [View]Cannot redeclare Claim::deleteItems() - C:\www\hrms\code\controllers\claims\Claim.php on line 441
+[2014-07-02 11:53:24] .
+[2014-07-02 11:53:24] ..
+[2014-07-02 11:53:24] claim_doc_1404273199_1.jpg
+[2014-07-02 11:53:24] claim_doc_1404273201_2.jpg
+[2014-07-02 11:53:24] [Service]Undefined variable: items - C:\www\hrms\code\controllers\claims\Claim.php on line 373
+[2014-07-02 11:56:36] insert into CLAIM_DOCUMENT (CLAIM_ID, CLAIM_DOC_ID, CLAIM_DOC_REF, CLAIM_DOC_DESC, CLAIM_DOC_PATH) values (:CLAIM_ID, :CLAIM_DOC_ID, :CLAIM_DOC_REF, :CLAIM_DOC_DESC, :CLAIM_DOC_PATH); SELECT SCOPE_IDENTITY()
+[2014-07-02 11:56:36] SQLSTATE[23000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Cannot insert explicit value for identity column in table 'CLAIM_DOCUMENT' when IDENTITY_INSERT is set to OFF.
+[2014-07-02 11:56:36] [Claim]Sorry, we are having problem in processing your request due to database problem.
+[2014-07-02 12:02:39] .
+[2014-07-02 12:02:39] ..
+[2014-07-02 12:02:39] claim_doc_1404273391_1.jpg
+[2014-07-02 12:02:39] claim_doc_1404273392_2.jpg
+[2014-07-02 12:08:08] [Service]rename(C:\www\hrms\code/../web/claims/temp/.,C:\www\hrms\code/../web/claims/4/.): Access is denied. (code: 5) - C:\www\hrms\code\controllers\claims\Claim.php on line 461
+[2014-07-02 12:16:55] [Service]unlink(C:\www\hrms\code/../web/claims/7): Permission denied - C:\www\hrms\code\controllers\claims\Claim.php on line 446
+[2014-07-02 12:21:11] [Service]unlink(C:\www\hrms\code/../web/claims/8/): Permission denied - C:\www\hrms\code\controllers\claims\Claim.php on line 446
+[2014-07-02 12:23:22] 0777
+[2014-07-02 12:23:22] 0777
+[2014-07-02 12:26:57] 0777
+[2014-07-02 12:26:57] 0777
+[2014-07-02 12:26:57] [Service]unlink(C:\www\hrms\code/../web/claims/10): Permission denied - C:\www\hrms\code\controllers\claims\Claim.php on line 449
+[2014-07-02 12:30:06] [View]Constant PATH_CODE already defined - C:\www\hrms\code\Constants.php on line 29
+[2014-07-02 12:30:06] [Service]Constant PATH_CODE already defined - C:\www\hrms\code\Constants.php on line 29
+[2014-07-02 12:30:06] [Service]Constant PATH_CODE already defined - C:\www\hrms\code\Constants.php on line 29
+[2014-07-02 12:30:46] 0777
+[2014-07-02 12:30:46] 0777
+[2014-07-02 12:30:46] [Service]unlink(C:\www\hrms\web/claims/11/): Permission denied - C:\www\hrms\code\controllers\claims\Claim.php on line 449
+[2014-07-02 12:31:33] [View]syntax error, unexpected '/' - C:\www\hrms\code\controllers\claims\Claim.php on line 447
+[2014-07-02 12:32:04] [Service]unlink(C:\www\hrms\web/claims/12): Permission denied - C:\www\hrms\code\controllers\claims\Claim.php on line 448
+[2014-07-02 12:35:00] C:\www\hrms\web
+[2014-07-02 12:35:00] [Service]unlink(C:\www\hrms\web/claims/12): Permission denied - C:\www\hrms\code\controllers\claims\Claim.php on line 449
+[2014-07-02 12:37:32] C:\www\hrms\web
+[2014-07-02 12:37:32] C:\www\hrms\web
+[2014-07-02 12:37:32] C:\www\hrms\web
+[2014-07-02 12:37:32] [Service]chdir(): No such file or directory (errno 2) - C:\www\hrms\code\controllers\claims\Claim.php on line 449
+[2014-07-02 12:38:20] C:\www\hrms\web
+[2014-07-02 12:38:20] C:\www\hrms\web
+[2014-07-02 12:38:20] C:\www\hrms\web
+[2014-07-02 12:38:20] [Service]chdir(): No such file or directory (errno 2) - C:\www\hrms\code\controllers\claims\Claim.php on line 449
+[2014-07-02 12:40:05] C:\www\hrms\web
+[2014-07-02 12:40:05] C:\www\hrms\web\claim
+[2014-07-02 12:40:05] C:\www\hrms\web
+[2014-07-02 12:40:05] [Service]unlink(C:\www\hrms\web\claim\16): No such file or directory - C:\www\hrms\code\controllers\claims\Claim.php on line 453
+[2014-07-02 12:42:07] C:\www\hrms\web
+[2014-07-02 12:42:07] [Service]chdir(): Invalid argument (errno 22) - C:\www\hrms\code\controllers\claims\Claim.php on line 459
+[2014-07-02 12:42:54] [Service]rmdir(C:\www\hrms\code/../web/claims/18): Directory not empty - C:\www\hrms\code\controllers\claims\Claim.php on line 448
+[2014-07-02 14:45:02] [Service]Call to undefined method ClaimDocumentClass::getDocs() - C:\www\hrms\code\controllers\claims\Claim.php on line 436
+[2014-07-02 14:45:23] [Service]Undefined class constant 'C_DOC_ID' - C:\www\hrms\code\controllers\claims\Claim.php on line 441
+[2014-07-02 15:50:22] [Report]syntax error, unexpected 'if' (T_IF) - C:\www\hrms\code\lib\ClaimUpload.php on line 41
+[2014-07-02 15:51:09] [Service]unlink(C:\www\hrms\code/../web/claims/temp/): Permission denied - C:\www\hrms\code\controllers\claims\Claim.php on line 501
+[2014-07-02 15:55:40] [Service]unlink(C:\www\hrms\code/../web/claims/20/claim_doc_1404283469_1.jpg): No such file or directory - C:\www\hrms\code\controllers\claims\Claim.php on line 501
+[2014-07-02 16:01:32] [Service]Class 'AttendanceTable' not found - C:\www\hrms\code\models\claims\ClaimDocumentClass.php on line 30
+[2014-07-02 16:04:35] v
+[2014-07-02 16:04:35] l
+[2014-07-02 16:04:40] g
+[2014-07-02 16:04:55] DELETE
+[2014-07-02 16:05:41] v
+[2014-07-02 16:05:41] l
+[2014-07-02 16:05:50] v
+[2014-07-02 16:05:50] l
+[2014-07-02 16:05:51] g
+[2014-07-02 16:07:43] v
+[2014-07-02 16:07:43] l
+[2014-07-02 16:07:52] g
+[2014-07-02 16:08:04] u
+[2014-07-02 16:08:04] update here 1
+[2014-07-02 16:08:04] update here
+[2014-07-02 16:08:04] insert into CLAIM_DOCUMENT (CLAIM_ID, CLAIM_DOC_ID, CLAIM_DOC_REF, CLAIM_DOC_DESC, CLAIM_DOC_PATH) values (:CLAIM_ID, :CLAIM_DOC_ID, :CLAIM_DOC_REF, :CLAIM_DOC_DESC, :CLAIM_DOC_PATH); SELECT SCOPE_IDENTITY()
+[2014-07-02 16:08:04] SQLSTATE[23000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Violation of PRIMARY KEY constraint 'PK_CLAIM_DOC'. Cannot insert duplicate key in object 'dbo.CLAIM_DOCUMENT'. The duplicate key value is (0, 20).
+[2014-07-02 16:08:04] [Claim]Sorry, we are having problem in processing your request due to database problem.
+[2014-07-02 16:12:11] v
+[2014-07-02 16:12:11] l
+[2014-07-02 16:12:39] g
+[2014-07-02 16:12:50] DELETE
+[2014-07-02 16:13:03] u
+[2014-07-02 16:13:03] update here 1
+[2014-07-02 16:13:03] update here
+[2014-07-02 16:13:03] insert into CLAIM_DOCUMENT (CLAIM_ID, CLAIM_DOC_ID, CLAIM_DOC_REF, CLAIM_DOC_DESC, CLAIM_DOC_PATH) values (:CLAIM_ID, :CLAIM_DOC_ID, :CLAIM_DOC_REF, :CLAIM_DOC_DESC, :CLAIM_DOC_PATH); SELECT SCOPE_IDENTITY()
+[2014-07-02 16:13:03] SQLSTATE[23000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Violation of PRIMARY KEY constraint 'PK_CLAIM_DOC'. Cannot insert duplicate key in object 'dbo.CLAIM_DOCUMENT'. The duplicate key value is (0, 20).
+[2014-07-02 16:13:03] [Claim]Sorry, we are having problem in processing your request due to database problem.
+[2014-07-02 16:13:19] v
+[2014-07-02 16:13:19] l
+[2014-07-02 16:13:20] g
+[2014-07-02 16:13:52] v
+[2014-07-02 16:13:52] l
+[2014-07-02 16:13:53] g
+[2014-07-02 16:14:00] u
+[2014-07-02 16:14:00] update here 1
+[2014-07-02 16:14:00] update here
+[2014-07-02 16:14:14] v
+[2014-07-02 16:14:14] l
+[2014-07-02 16:14:16] g
+[2014-07-02 16:14:23] v
+[2014-07-02 16:14:23] l
+[2014-07-02 16:14:25] g
+[2014-07-02 16:16:04] insert into CLAIM_DOCUMENT (CLAIM_ID, CLAIM_DOC_ID, CLAIM_DOC_REF, CLAIM_DOC_DESC, CLAIM_DOC_PATH) values (:CLAIM_ID, :CLAIM_DOC_ID, :CLAIM_DOC_REF, :CLAIM_DOC_DESC, :CLAIM_DOC_PATH); SELECT SCOPE_IDENTITY()
+[2014-07-02 16:16:04] SQLSTATE[23000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Violation of PRIMARY KEY constraint 'PK_CLAIM_DOC'. Cannot insert duplicate key in object 'dbo.CLAIM_DOCUMENT'. The duplicate key value is (1, 20).
+[2014-07-02 16:16:04] [Claim]Sorry, we are having problem in processing your request due to database problem.
+[2014-07-02 16:17:00] insert into CLAIM_DOCUMENT (CLAIM_ID, CLAIM_DOC_ID, CLAIM_DOC_REF, CLAIM_DOC_DESC, CLAIM_DOC_PATH) values (:CLAIM_ID, :CLAIM_DOC_ID, :CLAIM_DOC_REF, :CLAIM_DOC_DESC, :CLAIM_DOC_PATH); SELECT SCOPE_IDENTITY()
+[2014-07-02 16:17:00] SQLSTATE[23000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Violation of PRIMARY KEY constraint 'PK_CLAIM_DOC'. Cannot insert duplicate key in object 'dbo.CLAIM_DOCUMENT'. The duplicate key value is (1, 20).
+[2014-07-02 16:17:00] [Claim]Sorry, we are having problem in processing your request due to database problem.
+[2014-07-02 16:21:07] [View]syntax error, unexpected '$params' (T_VARIABLE) - C:\www\hrms\code\models\claims\ClaimDocumentClass.php on line 40
+[2014-07-02 16:31:53] insert into EXPENSE_ITEM (EXPENSE_ITEM_REF, EXPENSE_ITEM_GROUP_ID, EXPENSE_ITEM_DESC, EXPENSE_ITEM_TYPE, COY_ID, ORG_ID, WORKSTATION_ID, MODIFY_BY, MODIFY_DATE, CREATE_BY, CREATE_DATE) values (:EXPENSE_ITEM_REF, :EXPENSE_ITEM_GROUP_ID, :EXPENSE_ITEM_DESC, :EXPENSE_ITEM_TYPE, :COY_ID, :ORG_ID, :WORKSTATION_ID, :MODIFY_BY, :MODIFY_DATE, :CREATE_BY, :CREATE_DATE); SELECT SCOPE_IDENTITY()
+[2014-07-02 16:31:53] SQLSTATE[22001]: [Microsoft][SQL Server Native Client 11.0][SQL Server]String or binary data would be truncated.
+[2014-07-02 16:31:53] [Expense Item]Sorry, we are having problem in processing your request due to database problem.
+[2014-07-02 16:31:55] insert into EXPENSE_ITEM (EXPENSE_ITEM_REF, EXPENSE_ITEM_GROUP_ID, EXPENSE_ITEM_DESC, EXPENSE_ITEM_TYPE, COY_ID, ORG_ID, WORKSTATION_ID, MODIFY_BY, MODIFY_DATE, CREATE_BY, CREATE_DATE) values (:EXPENSE_ITEM_REF, :EXPENSE_ITEM_GROUP_ID, :EXPENSE_ITEM_DESC, :EXPENSE_ITEM_TYPE, :COY_ID, :ORG_ID, :WORKSTATION_ID, :MODIFY_BY, :MODIFY_DATE, :CREATE_BY, :CREATE_DATE); SELECT SCOPE_IDENTITY()
+[2014-07-02 16:31:55] SQLSTATE[22001]: [Microsoft][SQL Server Native Client 11.0][SQL Server]String or binary data would be truncated.
+[2014-07-02 16:31:55] [Expense Item]Sorry, we are having problem in processing your request due to database problem.
+[2014-07-02 17:08:29] select * from CLAIM_HEADER where ORG_ID = :ORG_ID AND CLAIM_STATUS = 'Approved' order by CLAIM_ID
+[2014-07-02 17:08:29] SQLSTATE[22018]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Conversion failed when converting the varchar value 'Approved' to data type int.
+[2014-07-02 17:22:43] [View]syntax error, unexpected ':' - C:\www\hrms\code\controllers\claims\Claim.php on line 206

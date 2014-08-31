@@ -1,0 +1,21 @@
+[2014-07-07 15:11:51] [Service]Call to undefined method ClaimDetailClass::checkLimitItem() - C:\www\hrms\code\controllers\claims\ClaimItemApproval.php on line 271
+[2014-07-07 15:31:52] select ACT_ID as code, ACT_DESC as [desc]  from ACTIVITY where ORG_ID = :ORG_ID order by ACT_DESC
+[2014-07-07 15:31:52] SQLSTATE[42S02]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid object name 'ACTIVITY'.
+[2014-07-07 15:31:54] select ACT_ID as code, ACT_DESC as [desc]  from ACTIVITY where ORG_ID = :ORG_ID order by ACT_DESC
+[2014-07-07 15:31:54] SQLSTATE[42S02]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid object name 'ACTIVITY'.
+[2014-07-07 15:58:11] insert into CLAIM_DETAIL (CLAIM_ID, CLAIM_LINE_NO, CLAIM_DESC, CLAIM_EXPENSE_ID, CLAIM_STATUS, CLAIM_AMOUNT, CLAIM_CURRENCY, CLAIM_APPROVED_AMOUNT, CLAIM_DOC_REF) values (:CLAIM_ID, :CLAIM_LINE_NO, :CLAIM_DESC, :CLAIM_EXPENSE_ID, :CLAIM_STATUS, :CLAIM_AMOUNT, :CLAIM_CURRENCY, :CLAIM_APPROVED_AMOUNT, :CLAIM_DOC_REF); SELECT SCOPE_IDENTITY()
+[2014-07-07 15:58:11] SQLSTATE[22018]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Conversion failed when converting the nvarchar value 'undefined' to data type int.
+[2014-07-07 15:58:11] [Claim]Sorry, we are having problem in processing your request due to database problem.
+[2014-07-07 16:14:20] [View]Use of undefined constant REQ_CANCEL - assumed 'REQ_CANCEL' - C:\www\hrms\code\controllers\claims\ClaimApproval.php on line 39
+[2014-07-07 16:39:01] [View]syntax error, unexpected 'updateStatusClaim' (T_STRING), expecting variable (T_VARIABLE) - C:\www\hrms\code\controllers\claims\ClaimApproval.php on line 309
+[2014-07-07 16:39:23] update CLAIM_HEADER set  = :, CLAIM_STATUS = :CLAIM_STATUS where CLAIM_ID = :CLAIM_ID
+[2014-07-07 16:39:23] [DbAdapter][updateRow]SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[2014-07-07 16:39:23] [Claim Approval]Sorry, we are having problem in processing your request due to database problem.
+[2014-07-07 16:39:23] [Service]Undefined index: value - C:\www\hrms\code\models\base\ClaimBase.php on line 41
+[2014-07-07 16:44:01] [Service]Undefined variable: row - C:\www\hrms\code\models\claims\ClaimHeaderClass.php on line 22
+[2014-07-07 16:49:10] 4 1 3
+[2014-07-07 16:50:03] 4 1 3
+[2014-07-07 16:50:03] 5
+[2014-07-07 17:11:30] [Service]Undefined class constant 'C_STATUS' - C:\www\hrms\code\controllers\claims\Claim.php on line 175
+[2014-07-07 17:45:56] [Service]Missing argument 2 for ClaimHeaderClass::getCountItem(), called in C:\www\hrms\code\controllers\claims\ClaimApproval.php on line 165 and defined - C:\www\hrms\code\models\claims\ClaimHeaderClass.php on line 27
+[2014-07-07 17:48:56] [View]syntax error, unexpected ';' - C:\www\hrms\code\controllers\claims\ClaimApproval.php on line 162

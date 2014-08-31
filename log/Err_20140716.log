@@ -1,0 +1,32 @@
+[2014-07-16 11:08:50] [Service]Class 'EmployeeClass' not found - C:\www\hrms\code\controllers\attendance\ShiftUpdate.php on line 382
+[2014-07-16 11:23:31] select DEPT_ID,DEPT_DESC from DEPARTMENT where  = :
+[2014-07-16 11:23:31] SQLSTATE[IMSSP]: Tried to bind parameter number 0.  SQL Server supports a maximum of 2100 parameters.
+[2014-07-16 11:23:34] select DEPT_ID,DEPT_DESC from DEPARTMENT where  = :
+[2014-07-16 11:23:34] SQLSTATE[IMSSP]: Tried to bind parameter number 0.  SQL Server supports a maximum of 2100 parameters.
+[2014-07-16 11:43:35] v
+[2014-07-16 11:43:40] v
+[2014-07-16 11:43:40] LIST
+[2014-07-16 11:45:48] v
+[2014-07-16 11:45:50] v
+[2014-07-16 11:45:53] v
+[2014-07-16 11:45:53] LIST
+[2014-07-16 11:46:23] v
+[2014-07-16 11:46:23] LIST
+[2014-07-16 11:47:04] v
+[2014-07-16 11:47:04] LIST
+[2014-07-16 11:47:49] v
+[2014-07-16 11:47:49] LIST
+[2014-07-16 11:47:52] g_EMP
+[2014-07-16 11:47:52] here 1
+[2014-07-16 11:47:52] 1:EMP_1|2:EMP_2|3:EMP_3
+[2014-07-16 12:07:18] select DEPT_ID,DEPT_DESC from DEPARTMENT where  = :
+[2014-07-16 12:07:18] SQLSTATE[IMSSP]: Tried to bind parameter number 0.  SQL Server supports a maximum of 2100 parameters.
+[2014-07-16 12:10:06] [Service]Undefined class constant 'C_TIMECARDLIMIT_BEFORE' - C:\www\hrms\code\controllers\attendance\OverTime.php on line 316
+[2014-07-16 12:21:51] [View]Class 'ShiftUpdateTable' not found - C:\www\hrms\code\controllers\attendance\TimeOff.php on line 12
+[2014-07-16 12:25:05] [Service]Undefined class constant 'C_RATE_GROUP_ID' - C:\www\hrms\code\models\attendance\EmployeeShiftClass.php on line 28
+[2014-07-16 12:25:59] [Service]Undefined class constant 'C_RATE_NORMAL_NORMAL' - C:\www\hrms\code\controllers\attendance\EmployeeProject.php on line 216
+[2014-07-16 12:27:32] [Service]Undefined class constant 'C_RATE_WEEKEND_NORMAL' - C:\www\hrms\code\controllers\attendance\EmployeeProject.php on line 232
+[2014-07-16 12:31:27] select * from ACTIVITY where ORG_ID = :ORG_ID order by ACT_DESC
+[2014-07-16 12:31:27] SQLSTATE[42S02]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid object name 'ACTIVITY'.
+[2014-07-16 12:31:28] select ACT_ID as code, ACT_DESC as [desc]  from ACTIVITY where ORG_ID = :ORG_ID order by ACT_DESC
+[2014-07-16 12:31:28] SQLSTATE[42S02]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid object name 'ACTIVITY'.

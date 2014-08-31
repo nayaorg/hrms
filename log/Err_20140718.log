@@ -1,0 +1,19 @@
+[2014-07-18 16:46:52] [View]syntax error, unexpected 'unset' (T_UNSET), expecting ';' - C:\www\hrms\code\controllers\hr\Employee.php on line 188
+[2014-07-18 16:47:07] [View]syntax error, unexpected '.' - C:\www\hrms\code\models\hr\EmployeeClass.php on line 19
+[2014-07-18 16:50:17] [Service]Class 'AttendanceTable' not found - C:\www\hrms\code\models\hr\EmployeeClass.php on line 21
+[2014-07-18 17:08:07] [Service]Invalid argument supplied for foreach() - C:\www\hrms\code\models\hr\EmployeePasswordClass.php on line 29
+[2014-07-18 17:09:25] [Service]Invalid argument supplied for foreach() - C:\www\hrms\code\models\hr\EmployeePasswordClass.php on line 32
+[2014-07-18 17:12:24] [Service]Undefined variable: id - C:\www\hrms\code\controllers\hr\Employee.php on line 124
+[2014-07-18 17:26:27] [Service]Undefined variable: datas - C:\www\hrms\code\models\base\MasterBase.php on line 36
+[2014-07-18 17:30:28] update EMPLOYEE_PASSWORD set :EMP_CODE = ::EMP_CODE, :EMP_ID = ::EMP_ID where EMP_ID = :EMP_ID
+[2014-07-18 17:30:28] [DbAdapter][updateRow]SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[2014-07-18 17:30:28] [Employee]Sorry, we are having problem in processing your request due to database problem.
+[2014-07-18 17:36:00] update EMPLOYEE_PASSWORD set :EMP_CODE = ::EMP_CODE, :EMP_ID = ::EMP_ID where EMP_ID = :EMP_ID
+[2014-07-18 17:36:00] [DbAdapter][updateRow]SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[2014-07-18 17:36:00] [Employee]Sorry, we are having problem in processing your request due to database problem.
+[2014-07-18 17:37:00] update EMPLOYEE_PASSWORD set EMP_CODE = :EMP_CODE, EMP_ID = :EMP_ID where EMP_ID = :EMP_ID
+[2014-07-18 17:37:00] [DbAdapter][updateRow]SQLSTATE[07002]: [Microsoft][SQL Server Native Client 11.0]COUNT field incorrect or syntax error
+[2014-07-18 17:37:00] [Employee]Sorry, we are having problem in processing your request due to database problem.
+[2014-07-18 17:39:06] update EMPLOYEE_PASSWORD set EMP_ID = :EMP_ID where EMP_ID = :EMP_ID
+[2014-07-18 17:39:06] [DbAdapter][updateRow]SQLSTATE[07002]: [Microsoft][SQL Server Native Client 11.0]COUNT field incorrect or syntax error
+[2014-07-18 17:39:06] [Employee]Sorry, we are having problem in processing your request due to database problem.

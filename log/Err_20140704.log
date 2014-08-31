@@ -1,0 +1,21 @@
+[2014-07-04 16:28:35] C:\www\hrms\web
+[2014-07-04 16:28:35] claims/25/claim_doc_1404290014_1.jpg
+[2014-07-04 16:35:57] there
+[2014-07-04 16:35:57] C:\www\hrms\web
+[2014-07-04 16:35:57] claims/25/claim_doc_1404290014_1.jpg
+[2014-07-04 16:37:19] there
+[2014-07-04 16:37:19] C:\www\hrms\web
+[2014-07-04 16:37:19] claims/25/claim_doc_1404290023_2.jpg
+[2014-07-04 16:45:49] [View]Call to a member function read() on a non-object - C:\www\hrms\code\lib\Util.php on line 211
+[2014-07-04 16:57:00]  a 
+[2014-07-04 16:57:00] [Service]Undefined index: dept - C:\www\hrms\code\controllers\claims\ClaimDocumentApproval.php on line 226
+[2014-07-04 16:57:00] 25 a 3
+[2014-07-04 16:59:20] 25 a 3
+[2014-07-04 17:17:17] [Service]Undefined class constant 'C_CLAIM_DOC_REF' - C:\www\hrms\code\controllers\claims\ClaimDocumentApproval.php on line 68
+[2014-07-04 17:17:59] [Service]Undefined class constant 'C_CLAIM_DOC_REF' - C:\www\hrms\code\controllers\claims\ClaimDocumentApproval.php on line 68
+[2014-07-04 17:20:06] [Service]Undefined class constant 'C_CLAIM_DOC_REF' - C:\www\hrms\code\controllers\claims\ClaimDocumentApproval.php on line 68
+[2014-07-04 17:20:34] [Service]Undefined class constant 'C_CLAIM_DOC_REF' - C:\www\hrms\code\controllers\claims\ClaimDocumentApproval.php on line 68
+[2014-07-04 17:24:58] [Service]Undefined class constant 'C_WS_ID' - C:\www\hrms\code\controllers\claims\ClaimDocumentApproval.php on line 68
+[2014-07-04 17:25:35] update CLAIM_DOCUMENT set CLAIM_DOC_IS_VERIFIED = :CLAIM_DOC_IS_VERIFIED where CLAIM_ID = :CLAIM_ID and  = :
+[2014-07-04 17:25:35] [DbAdapter][updateRow]SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+[2014-07-04 17:25:35] [Claim Document]Sorry, we are having problem in processing your request due to database problem.

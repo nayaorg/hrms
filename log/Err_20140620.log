@@ -1,0 +1,12 @@
+[2014-06-20 15:32:03] Emp Name Dick
+[2014-06-20 15:32:03] Emp Name tom
+[2014-06-20 15:46:11] Emp Name Dick
+[2014-06-20 15:46:11] Emp Name tom
+[2014-06-20 16:37:53] [Service]Undefined variable: list - C:\www\hrms\code\controllers\claims\ClaimGroupEmployee.php on line 166
+[2014-06-20 16:39:28] [Service]Use of undefined constant lines - assumed 'lines' - C:\www\hrms\code\controllers\claims\ClaimGroupEmployee.php on line 163
+[2014-06-20 16:44:43] [Service]Call to undefined function getLimits() - C:\www\hrms\code\controllers\claims\ClaimGroupEmployee.php on line 165
+[2014-06-20 16:45:51] [Service]Undefined variable: params - C:\www\hrms\code\controllers\claims\ClaimGroupEmployee.php on line 178
+[2014-06-20 16:46:41] [Service]Undefined variable: params - C:\www\hrms\code\controllers\claims\ClaimGroupEmployee.php on line 174
+[2014-06-20 16:47:09] [Service]Undefined variable: drow - C:\www\hrms\code\controllers\claims\ClaimGroupEmployee.php on line 185
+[2014-06-20 17:38:00] [Service]Undefined property: ClaimGroupEmployee::$2:Dick|1:tom - C:\www\hrms\code\controllers\claims\ClaimGroupEmployee.php on line 165
+[2014-06-20 17:38:13] [Service]Undefined property: ClaimGroupEmployee::$3:Luke - C:\www\hrms\code\controllers\claims\ClaimGroupEmployee.php on line 165

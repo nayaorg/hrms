@@ -1,0 +1,32 @@
+[2014-07-01 08:41:59] select * from CLAIM_HEADER where ORG_ID = :ORG_ID AND (CLAIM_BY = '1') AND CLAIM_STATUS != 'Approved' order by CLAIM_ID
+[2014-07-01 08:41:59] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'CLAIM_BY'.
+[2014-07-01 09:45:41] [Service]Call to undefined method ClaimLimitClass::deleteExpenseItem() - C:\www\hrms\code\controllers\claims\ExpenseItem.php on line 143
+[2014-07-01 10:10:19] Limit Reached : Claim Limit has not been assigned to this expense item for your Claim Group.
+[2014-07-01 10:33:25] [View]syntax error, unexpected ';' - C:\www\hrms\code\controllers\claims\Claim.php on line 92
+[2014-07-01 10:34:08] [Service]Class 'ClaimGroupHeadTable' not found - C:\www\hrms\code\controllers\claims\Claim.php on line 342
+[2014-07-01 10:35:43] [Service]Undefined class constant 'C_ID' - C:\www\hrms\code\controllers\claims\Claim.php on line 342
+[2014-07-01 10:37:50] Limit Reached : Claim Limit has not been assigned to this expense item for your Claim Group.
+[2014-07-01 10:58:08] [View]syntax error, unexpected '$row_currency' (T_VARIABLE) - C:\www\hrms\code\controllers\claims\Claim.php on line 380
+[2014-07-01 10:59:23] 1^123^1^EXPENSE_ITEM_1^234.0000^1^Singpore Dollars^345
+[2014-07-01 11:01:28] 1^123^1^EXPENSE_ITEM_1^234.0000^1^Singpore Dollars^345
+[2014-07-01 14:42:58] try upload
+[2014-07-01 15:12:15] try upload
+[2014-07-01 15:53:37] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-07-01 15:53:37] [DbAdapter][open]SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF]. 
+[2014-07-01 15:53:52] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-07-01 15:53:52] [DbAdapter][open]SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF]. 
+[2014-07-01 16:28:43] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-07-01 16:28:43] [DbAdapter][open]SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF]. 
+[2014-07-01 16:29:33] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-07-01 16:29:33] [DbAdapter][open]SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF]. 
+[2014-07-01 16:30:20] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-07-01 16:30:20] [DbAdapter][open]SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF]. 
+[2014-07-01 16:31:11] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-07-01 16:31:11] [DbAdapter][open]SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF]. 
+[2014-07-01 16:31:41] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-07-01 16:31:41] [DbAdapter][open]SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF]. 
+[2014-07-01 16:34:38] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-07-01 16:34:38] [DbAdapter][open]SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF]. 
+[2014-07-01 16:36:48] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-07-01 16:36:48] [DbAdapter][open]SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF]. 
+[2014-07-01 16:40:13] try upload

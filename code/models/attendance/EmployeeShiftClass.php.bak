@@ -1,0 +1,30 @@
+<?php
+require_once (PATH_TABLES . "attendance/EmployeeShiftTable.php") ;
+require_once (PATH_MODELS . "base/MasterBase.php") ;
+
+class EmployeeShiftClass extends MasterBase {
+	
+	function __construct($db) {
+		$this->db = $db ;
+		$this->tbl = EmployeeShiftTable::C_TABLE ;
+		$this->fldid = EmployeeShiftTable::C_ID ;
+		$this->fldorg = EmployeeShiftTable::C_ORG_ID ;
+		$this->flddesc = EmployeeShiftTable::C_SHIFT_TYPE ;
+	}
+	function __destruct() {
+	}
+	function getRateGroupId($emp_id){
+		$sql = "select * from " . $this->tbl
+			. " where " . $this->db->fieldParam(EmployeeShiftTable::C_ID) ;
+			
+		$params = array() ;
+		$params[] = $this->db->valueParam(EmployeeShiftTable::C_ID,$emp_id) ;
+			
+		$rows = $this->db->getRow($sql,$params) ;
+		if (is_null($rows) || count($rows) == 0)
+			return null ;
+		else 
+			return $rows[0][EmployeeShiftTable::C_RATE_GROUP_ID] ;
+	}
+}
+?>

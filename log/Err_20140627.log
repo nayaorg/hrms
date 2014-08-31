@@ -1,0 +1,6 @@
+[2014-06-27 14:46:51] [View]class not found : bf786d8e84f2f61fec5d885b07f0830451ea4688713835720ecf617296e53e66, page : Login
+[2014-06-27 15:37:41] 
+[2014-06-27 15:37:41] SQLSTATE[HY090]: [Microsoft][ODBC Driver Manager] Invalid string or buffer length
+[2014-06-27 16:01:59] [Service]Call to undefined method ClaimLimitClass::deleteExpenseItem() - C:\www\hrms\code\controllers\claims\ExpenseItem.php on line 120
+[2014-06-27 17:22:19] select * from CLAIM_HEADER where ORG_ID = :ORG_ID AND CLAIM_BY = '0' AND CLAIM_STATUS != 'Approved' order by CLAIM_ID
+[2014-06-27 17:22:19] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'CLAIM_BY'.

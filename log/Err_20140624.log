@@ -1,0 +1,13 @@
+[2014-06-24 16:45:23] lines
+[2014-06-24 16:45:23] [Service]Use of undefined constant lines - assumed 'lines' - C:\www\hrms\code\controllers\claims\ClaimGroup.php on line 281
+[2014-06-24 16:45:45] 2:Dick
+[2014-06-24 16:45:45] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-24 17:15:57] 2:Dick
+[2014-06-24 17:15:57] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-24 17:24:29] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-24 17:25:41] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-24 17:27:01] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-24 17:29:34] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-24 17:29:41] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-24 18:00:23] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-24 18:00:30] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3

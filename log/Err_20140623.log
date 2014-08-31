@@ -1,0 +1,23 @@
+[2014-06-23 14:22:04] [View]include(): Failed opening 'C:\www\hrms\code/js/payroll/claimitemapproval.js' for inclusion (include_path='.;C:\php\pear') - C:\www\hrms\code\views\claims\ClaimItemApprovalView.php on line 42
+[2014-06-23 14:24:01] [Service]Class 'ClaimTable' not found - C:\www\hrms\code\controllers\claims\ClaimApproval.php on line 76
+[2014-06-23 14:26:45] [Service]Undefined class constant 'C_TABLE' - C:\www\hrms\code\models\claims\ClaimGroupHeadClass.php on line 9
+[2014-06-23 14:33:56] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/payroll/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-23 14:35:23] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-23 15:01:28] 
+[2014-06-23 15:44:03] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-23 17:12:19] [View]syntax error, unexpected '=' - C:\www\hrms\code\controllers\claims\ClaimGroup.php on line 75
+[2014-06-23 17:12:36] [View]require_once(): Failed opening required 'PATH_MODELclaims/ClaimGroupHeadClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroup.php on line 7
+[2014-06-23 17:13:18] [Claim Group] There is no active transaction
+[2014-06-23 17:13:18] [Service]Undefined variable: limits - C:\www\hrms\code\controllers\claims\ClaimGroup.php on line 79
+[2014-06-23 17:14:47] insert into CLAIM_GROUP_HEAD (CLAIM_GROUP_ID, CLAIM_GROUP_EMP_ID) values (:CLAIM_GROUP_ID, :CLAIM_GROUP_EMP_ID); SELECT SCOPE_IDENTITY()
+[2014-06-23 17:14:47] SQLSTATE[22018]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Conversion failed when converting the nvarchar value 'undefined' to data type int.
+[2014-06-23 17:14:47] [Claim Group] Sorry, we are having problem in processing your request due to database problem.
+[2014-06-23 17:16:30] [Claim Group] There is no active transaction
+[2014-06-23 17:20:45] [Claim Group] There is no active transaction
+[2014-06-23 17:22:58] [Claim Group] There is no active transaction
+[2014-06-23 17:24:55] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-23 17:24:59] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-23 17:25:01] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-23 17:25:07] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-23 17:41:10] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-23 17:48:51] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3

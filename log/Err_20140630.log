@@ -1,0 +1,42 @@
+[2014-06-30 13:59:08] 
+[2014-06-30 13:59:08] SQLSTATE[HY090]: [Microsoft][ODBC Driver Manager] Invalid string or buffer length
+[2014-06-30 14:12:31] Limit Amount100.0000
+[2014-06-30 14:12:31] Employee : 1
+[2014-06-30 14:12:31] Employee : 2
+[2014-06-30 14:12:31] SQLSTATE[HY090]: [Microsoft][ODBC Driver Manager] Invalid string or buffer length
+[2014-06-30 14:14:25] Limit Amount100.0000
+[2014-06-30 14:14:25] Employee : 1
+[2014-06-30 14:14:25] Employee : 2
+[2014-06-30 14:14:25] Claim ID :1
+[2014-06-30 14:14:25] SQLSTATE[HY090]: [Microsoft][ODBC Driver Manager] Invalid string or buffer length
+[2014-06-30 14:18:23] Limit Amount100.0000
+[2014-06-30 14:18:23] Employee : 1
+[2014-06-30 14:18:23] Employee : 2
+[2014-06-30 14:18:23] Claim ID :1
+[2014-06-30 14:18:23] Limit Type :3
+[2014-06-30 14:18:23] SQLSTATE[HY090]: [Microsoft][ODBC Driver Manager] Invalid string or buffer length
+[2014-06-30 14:25:16] Limit Amount100.0000
+[2014-06-30 14:25:16] Employee : 1
+[2014-06-30 14:25:16] Employee : 2
+[2014-06-30 14:25:16] Claim ID :1
+[2014-06-30 14:25:16] Limit Type :3
+[2014-06-30 14:25:16] [Service]Undefined class constant 'C_CREATE_DATE' - C:\www\hrms\code\controllers\claims\ClaimItem.php on line 227
+[2014-06-30 15:59:43] 1 here
+[2014-06-30 16:00:13] 1 here
+[2014-06-30 16:00:34] 1 here
+[2014-06-30 17:03:20] 1
+[2014-06-30 17:03:20] 1
+[2014-06-30 17:03:20] 1 here
+[2014-06-30 17:14:36] 1
+[2014-06-30 17:48:52] v
+[2014-06-30 17:48:52] l
+[2014-06-30 17:49:40] a v
+[2014-06-30 17:49:41] a l
+[2014-06-30 17:50:55] a v
+[2014-06-30 17:50:55] a l
+[2014-06-30 17:52:14] a v
+[2014-06-30 17:52:15] a l
+[2014-06-30 17:55:43] g_HEAD
+[2014-06-30 17:55:46] g_EMP
+[2014-06-30 17:56:40] g_HEAD
+[2014-06-30 17:56:41] g_EMP

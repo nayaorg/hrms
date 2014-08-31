@@ -1,0 +1,24 @@
+[2014-06-25 15:31:32] 
+[2014-06-25 15:32:48] 1:tom
+[2014-06-25 15:32:53] 1:tom
+[2014-06-25 15:32:55] 
+[2014-06-25 15:32:57] 
+[2014-06-25 15:32:59] 3:Luke|2:Dick
+[2014-06-25 16:02:44] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-25 16:05:52] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-25 16:21:30] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-25 16:39:28] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-25 17:13:01] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-25 17:14:01] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-25 17:15:34] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-25 17:15:40] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-25 17:15:50] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-25 17:15:59] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-25 17:16:56] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-25 17:41:23] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimGroupMemberClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimGroupMember.php on line 3
+[2014-06-25 17:45:37] [Service]Class 'ClaimGroupMember' not found - C:\www\hrms\code\controllers\claims\ClaimGroup.php on line 204
+[2014-06-25 17:47:24] select * from CLAIM_HEADER where ORG_ID = :ORG_ID AND CLAIM_BY = '0' order by CLAIM_ID
+[2014-06-25 17:47:24] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'CLAIM_BY'.
+[2014-06-25 17:50:50] select * from CLAIM_HEADER where ORG_ID = :ORG_ID AND CLAIM_BY = '0' order by CLAIM_ID
+[2014-06-25 17:50:50] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'CLAIM_BY'.
+[2014-06-25 17:50:50] [Service]Undefined variable: list - C:\www\hrms\code\controllers\claims\ClaimApproval.php on line 82

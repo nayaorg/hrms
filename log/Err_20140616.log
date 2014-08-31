@@ -1,0 +1,7 @@
+[2014-06-16 11:30:58] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-16 11:30:58] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-16 11:31:54] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-16 11:31:54] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-16 11:31:57] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-16 11:31:57] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-16 17:26:29] [View]Call to a member function read() on a non-object - C:\www\hrms\code\lib\Util.php on line 211

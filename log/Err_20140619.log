@@ -1,0 +1,3 @@
+[2014-06-19 16:29:34] [View]include(): Failed opening 'C:\www\hrms\code/js/payroll/claimitemapproval.js' for inclusion (include_path='.;C:\php\pear') - C:\www\hrms\code\views\claims\ClaimItemApprovalView.php on line 42
+[2014-06-19 17:41:53] [Service]syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) - C:\www\hrms\code\controllers\claims\ClaimGroupEmployee.php on line 9
+[2014-06-19 17:48:59] [Service]syntax error, unexpected 'echo' (T_ECHO), expecting function (T_FUNCTION) - C:\www\hrms\code\controllers\claims\ClaimGroupEmployee.php on line 9

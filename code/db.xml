@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+ <type>mssql</type>
+ <dbname>DB_HRMS</dbname>
+ <host>.\sqlexpress</host>
+ <port></port>
+ <username>sa</username>
+ <password>ae5e895be260dd88d297e15c809bc574e5acb25b11f4aa7f95fb777315883b76</password>
+ <persistent>1</persistent>
+</database>

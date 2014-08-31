@@ -1,0 +1,1 @@
+This directory contain daily application error log file. 

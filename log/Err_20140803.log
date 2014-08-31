@@ -1,0 +1,4 @@
+[2014-08-03 11:24:18] sqlsrv:Server=DEVELOPMENT;Database=DB_HRMS
+[2014-08-03 11:24:18] [DbAdapter][open]SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]Named Pipes Provider: Could not open a connection to SQL Server [67]. 
+[2014-08-03 11:25:05] processQuery
+[2014-08-03 11:25:05] processLogin : index.pzx?c=e96e127aa834eb582ba676f1346d0dc70165f144ecbbc53662412df0d1105f46

@@ -1,0 +1,321 @@
+body { margin: 0;padding: 0;width:100%; height:100%;}
+body, p
+{
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+}
+a img {
+	border: none ;
+	display: inline ;
+}
+
+.sbg-login-content {
+  margin: 0 auto;
+  width: 800px;
+  padding: 0px 0px 0px 0px;
+  position: relative;
+}
+.sbg-login-header-bar {
+  margin-top:10px ;
+  height: 130px;
+  /*background: #f5f5f5;*/
+  /*border-bottom: 1px solid #e5e5e5;*/
+  overflow: hidden;
+}
+.sbg-login-header .logo {
+  margin: 0px 0 0 -1px;
+  float: left;
+}
+.sbg-login-footer-bar {
+  position: absolute;
+  bottom: 0;
+  height: 35px;
+  width: 100%;
+  border-top: 1px solid #ebebeb;
+  overflow: hidden;
+}
+.sbg-login-footer {
+  margin-top: 19px;
+  font-size: .85em;
+  white-space: nowrap;
+  line-height: 0;
+}
+.sbg-login-footer a {
+  color: #333;
+}
+.sbg-login-footer ul {
+  color: #999;
+  margin: 0 0 0 0;
+  float: left;
+}
+.sbg-login-footer ul li {
+  display: inline;
+  padding: 0 0 0 0;
+}
+.sbg-login {
+  width: 250px;
+  margin-right:10px;
+  margin-top:5px ;
+  float: right;
+  filter: Alpha(Opacity=95); 
+  -moz-opacity:0.95; 
+  opacity: 0.95;
+}
+.sbg-login-title {
+  padding: 5px 5px 5px 5px;
+  font-size: 1.1em ;
+  height: 25px ;
+}
+.sbg-login input[type=text],
+.sbg-login input[type=password] {
+  width: 200px;
+  height: 20px;
+  font-size: 1.2em;
+  margin-left: 15px ;
+}
+.sbg-login-label {
+  font-weight: bold;
+  margin: 0 0 .5em;
+  display: block;
+  padding-left: 15px ;
+  padding-top: 15px ;
+  font-size: 1.2em ;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.sbg-top-panel {
+	height: 100px ;
+	background-color: #fafafa ;
+	position: relative ;
+}
+.sbg-logo {
+	width: 200px ;
+	height: 100px ;
+}
+.sbg-header {
+	position: absolute;
+	top: 0px;
+	left: 200px;
+	right: 0px;
+	height: 40px;
+}
+.sbg-header .date {
+	position: absolute ;
+	right:10px;
+	top:10px;
+	text-align:right;
+}
+.sbg-header .company {
+	padding: 10px 0px 0px 15px;
+}
+
+.sbg-menu-top {
+	position: absolute ;
+	bottom: 0px;
+	height: 60px;
+	right: 0px;
+	left: 200px;
+}
+.sbg-menu-top .mainmenu {
+	position: relative ;
+	padding-left: 20px ;
+	height: 60px ;
+	margin-top: 20px ;
+}
+.sbg-menu-top .mainmenu div {
+	float: left ;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.sbg-menu-top .sidemenu {
+	position: absolute ;
+	right : 15px ;
+	bottom: 8px ;
+}
+.sbg-menu-top .sidemenu div {
+	float: right;
+	padding-left: 5px ;
+	padding-right: 5px ;
+}
+.sbg-menu-top .mainmenu img, .sbg-menu-top .sidemenu img {
+	border: none ;
+	display: inline ;
+}
+.sbg-menu-top .sidemenu *:focus, .sbg-menu-top .mainmenu *:focus {
+	outline: none ;
+}
+.sbg-left-panel {
+	background-color: #fafafa ;
+	position: absolute ;
+	left: 0 ;
+	top: 100px;
+	bottom: 0px ;
+	width: 210px ;
+}
+.sbg-center-panel {
+	position: absolute ;
+	right: 5px ;
+	top: 100px ;
+	bottom: 0px ;
+	left: 210px ;
+	background: none ;
+}
+.sbg-bottom-panel {
+	position: absolute ;
+	bottom: 0 ;
+	left: 210px ;
+	right: 0 ;
+	height: 30px ;
+	text-align: center ;
+	font-size: 0.8em ;
+}
+.sbg-menu-box {
+	margin-left: 5px ;
+	margin-top: 5px ;
+	width: 200px ;
+}
+.sbg-menu-box .submenu {
+	margin: 0 ;
+	padding-top: 5px ;
+	padding-bottom: 5px ;
+	padding-left: 5px ;
+}
+.sbg-menu-box .submenu a{
+	text-decoration: none ;
+	padding-left: 5px ;
+}
+.sbg-mesg-box {
+	margin-left: 5px ;
+	margin-top: 20px ;
+	width: 200px ;
+}
+.sbg-mesg-box .profile {
+	margin: 0 ;
+	padding-top: 5px ;
+	padding-bottom: 5px ;
+	padding-left: 5px ;
+}
+.sbg-mesg-box .message {
+	margin: 0 ;
+	padding-top: 5px ;
+	padding-bottom: 5px ;
+	padding-left: 5px ;
+}
+.sbg-mesg-box .profile a, .message a{
+	text-decoration: none ;
+	padding-left: 5px ;
+}
+.sbg-entry-error {
+	float:left ;
+	margin-left: 5px ;
+	margin-top: 2px ;
+	margin-bottom: 2px ;
+	color: red ;
+}
+.sbg-entry-command {
+	float:right;
+	margin-right: 5px ;
+	margin-top: 5px ;
+}
+.sbg-tab-title {
+	position:absolute ; right:20px; top:10px; margin: 0 ;
+	font-size: 1.5em ;
+}
+.sbg-table {
+	border: 1px solid #FAFAFA;
+	margin: 5px 5px 5px 5px ;
+}
+.sbg-table td
+{
+	vertical-align: top;
+	border: 1px solid #FAFAFA;
+}
+.sbg-table .ui-widget-header
+{
+	height: 30px;
+	margin: 0 0 0 0 ;
+	padding: 0 0 0 0 ;
+}
+.sbg-table .header .ui-widget-header td
+{
+	text-align: center ;
+	margin: 0 ;
+	padding-top: 3px ;
+	height: 17px ;
+	font-size: 12px ;
+}
+.sbg-table .footer .ui-state-default td
+{
+	margin: 0 ;
+	padding-top: 3px ;
+	height: 17px ;
+	font-size: 12px ;
+}
+.sbg-table .data tr:nth-child(even)
+{
+    background-color: #E6F0FA;
+}
+.sbg-table .data tr:nth-child(odd)
+{
+	background-color: White ;
+} 
+.sbg-tips {
+	display:none ;
+	position:absolute;
+	z-index: 2000;
+	top: 0px ;
+	left: 0px ;
+	font-size: 1em ;
+	padding: 5px 5px 5px 5px ;
+}
+.sbg-progress {
+	position: absolute;
+	top: 0 ;
+	left: 0 ;
+	right: 0 ;
+	bottom: 0 ;
+	filter: Alpha(Opacity=20); 
+    -moz-opacity:0.2; 
+    opacity: 0.2;
+    background-color: #000000;
+    z-index: 1000;
+}
+.sbg-progress-box {
+	position: absolute ;
+	background-color: white ;
+	border: thin solid black ;
+	top: 300px ;
+	left: 35% ;
+	width: 350px ;
+	padding: 10px 10px 10px 10px ;
+	font-size: 1.2em ;
+	z-index: 2000;
+}
+.sbg-progress-mesg {
+	margin-left: 45px ;
+	margin-top: 5px ;
+}
+.sbg-dialog {
+	display: none ;
+}
+.sbg-confirm {
+	display: none ;
+}
+.sbg-confirm .ui-dialog .ui-dialog-titlebar-close { 
+	display: none; 
+}
+.sbg-popup-box {
+	display: none;
+	position: absolute;
+	bottom: 30px;
+	right: 10px;
+	padding: 10px 10px 10px 10px;
+	width: 200px;
+}
+.sbg-table-list td {
+	border: 1px solid #BDBDBD;
+}
+.sbg-row-selected {
+	background-color: #FFFF99 !important;
+}

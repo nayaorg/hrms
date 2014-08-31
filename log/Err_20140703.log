@@ -1,0 +1,17 @@
+[2014-07-03 09:03:20] sqlsrv:Server=DEVELOPMENT;Database=DB_HRMS
+[2014-07-03 09:03:20] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-07-03 10:39:19] [View]Class 'DepartmentTable' not found - C:\www\hrms\code\controllers\claims\Claim.php on line 319
+[2014-07-03 10:39:51] [View]Class 'DepartmentTable' not found - C:\www\hrms\code\controllers\claims\Claim.php on line 319
+[2014-07-03 10:40:32] [View]Class 'DepartmentTable' not found - C:\www\hrms\code\controllers\claims\Claim.php on line 319
+[2014-07-03 10:42:49] [View]Class 'DepartmentTable' not found - C:\www\hrms\code\controllers\claims\Claim.php on line 319
+[2014-07-03 11:31:29] select * from CLAIM_HEADER where ORG_ID = :ORG_ID AND CLAIM_BY = '0' AND CLAIM_STATUS != 'Approved' order by CLAIM_ID
+[2014-07-03 11:31:29] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'CLAIM_BY'.
+[2014-07-03 11:31:52] select * from CLAIM_HEADER where ORG_ID = :ORG_ID AND CLAIM_BY = '0' AND CLAIM_STATUS != 'Approved' order by CLAIM_ID
+[2014-07-03 11:31:52] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'CLAIM_BY'.
+[2014-07-03 11:37:10] select * from CLAIM_HEADER where ORG_ID = :ORG_ID AND CLAIM_BY = '0' AND CLAIM_STATUS != 'Approved' order by CLAIM_ID
+[2014-07-03 11:37:10] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'CLAIM_BY'.
+[2014-07-03 12:46:47] [Service]Undefined class constant 'C_TABLE' - C:\www\hrms\code\models\claims\ClaimGroupClass.php on line 38
+[2014-07-03 12:54:35] [View]syntax error, unexpected ')' - C:\www\hrms\code\controllers\claims\ClaimApproval.php on line 132
+[2014-07-03 17:40:13] asdasd
+[2014-07-03 17:41:53] asdasd
+[2014-07-03 17:52:59] [Service]Class 'ClaimTable' not found - C:\www\hrms\code\controllers\claims\ClaimApproval.php on line 61

@@ -1,0 +1,70 @@
+<div style="margin-top:5px">
+	<div id="sbg-daily-attendance-option" class="ui-widget-content ui-corner-all" style="height:auto;margin-left:5px;margin-right:5px;padding-left:10px;padding-top:5px">
+		<table>
+			<tr>
+				<td>
+					<table>
+						<tr>
+							<td style="text-align:right"><span>Date :</span></td>
+							<td><input type="text" id="txtDateReport" size="10"/></td>
+						</tr>
+						<tr>
+							<td><span>Emp. ID :</span></td>
+							<td><input type="text" id="txtEmpIdBegin" maxlength="10" size="10" /> - <input type="text" id="txtEmpIdEnd" maxlength="10" size="10" />&nbsp;&nbsp;&nbsp;&nbsp;</td>
+						</tr>
+					</table>
+				</td>
+				<td style="vertical-align:top">
+					<span>Dept. :</span><select id="cobDept"><?php echo $this->getDepartment() ; ?></select>&nbsp;&nbsp;&nbsp;&nbsp;
+				</td>
+				<td style="vertical-align:top">
+					<div>
+						<input id="btnDailyAttendanceView" type="button" value="View"></input>
+						<input id="btnDailyAttendancePrint" type="button" value="Print"></input>
+						<input id="btnDailyAttendanceExport" type="button" value="Export"></input>
+					</div>
+				</td>
+			</tr>
+		</table>
+		
+	</div>
+	<div class="sbg-table">
+		<div class="ui-widget-header">
+			<table id="sbg-daily-attendance-header" class="header" cellspacing="0" cellpadding="5">
+                <tr class="ui-widget-header">
+                <td style="width: 50px;">ID</td>
+                <td style="width: 150px;">Name</td>
+                <td style="width: 80px;">In</td>
+				<td style="width: 80px;">Late In</td>
+				<td style="width: 80px;">Out</td>
+				<td style="width: 80px;">Early Out</td>
+				<td style="width: 80px;">Break From</td>
+				<td style="width: 80px;">Break To</td>
+				<td style="width: 80px;">Overtime</td>
+				<td style="width: 80px;">Remarks</td>
+                </tr>
+			</table>
+		</div>
+        <div id="sbg-daily-attendance-data" style="overflow: auto;">
+            <table id="sbg-daily-attendance-table" cellspacing="0" cellpadding="5" class="data">
+			<tr><td style="width:50px;height:1px"></td>
+				<td style="width:150px"></td>
+				<td style="width: 80px"></td>
+				<td style="width: 80px"></td>
+				<td style="width: 80px;"></td>
+				<td style="width: 80px;"></td>
+				<td style="width: 80px;"></td>
+				<td style="width: 80px;"></td>
+				<td style="width: 80px;"></td>
+				<td style="width: 80px;"></td>
+			</tr>
+            </table>
+        </div>
+	</div>
+</div> 
+<script type="text/javascript">
+var daily_attendance_url = "<?php echo Util::convertLink("DailyAttendance") ; ?>" ;
+<?php 
+	include (PATH_CODE . "js/attendance/dailyattendance.min.js") ; 
+?>
+</script>

@@ -1,0 +1,122 @@
+[2014-06-11 14:06:06] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:06:06] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:06:33] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:06:33] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:06:34] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:06:34] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:06:35] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:06:35] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:06:38] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:06:38] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:06:45] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:06:45] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:07:16] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:07:16] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:07:17] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:07:17] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:07:19] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:07:19] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:07:26] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:07:26] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:08:17] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:08:17] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:08:19] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:08:19] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:08:19] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:08:19] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:08:19] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:08:19] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:08:19] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:08:19] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:08:20] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:08:20] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:08:20] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:08:20] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:08:21] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:08:21] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:08:21] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:08:21] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:08:21] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:08:21] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:08:21] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:08:21] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:08:24] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:08:24] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:09:01] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:09:01] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:09:01] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:09:01] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:09:02] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:09:02] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:09:02] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:09:02] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:09:10] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:09:10] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:09:10] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:09:10] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:12:01] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:12:01] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:15:06] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:15:06] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:15:07] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:15:07] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:15:10] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:15:10] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:15:10] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:15:10] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:15:18] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:15:18] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:15:18] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:15:18] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:15:18] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:15:18] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:15:19] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:15:19] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:15:20] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:15:20] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:15:22] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:15:22] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:15:22] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:15:22] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:15:22] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-06-11 14:15:22] [DbAdapter][open]SQLSTATE[28000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Login failed for user 'sa'.
+[2014-06-11 14:18:36] [Service]Undefined class constant 'C_DESC' - C:\www\hrms\code\models\attendance\TimeCardLimitClass.php on line 10
+[2014-06-11 14:23:11] [Service]Undefined class constant 'C_ID' - C:\www\hrms\code\models\attendance\AttendanceProjectClass.php on line 9
+[2014-06-11 14:23:16] [Service]Undefined class constant 'C_ID' - C:\www\hrms\code\models\attendance\AttendanceProjectClass.php on line 9
+[2014-06-11 14:26:40] [View]include(): Failed opening 'C:\www\hrms\code/js/payroll/claimgroupmember.js' for inclusion (include_path='.;C:\php\pear') - C:\www\hrms\code\views\claims\ClaimGroupView.php on line 120
+[2014-06-11 14:30:27] [View]include(): Failed opening 'C:\www\hrms\code/js/payroll/claimgroupmember.js' for inclusion (include_path='.;C:\php\pear') - C:\www\hrms\code\views\claims\ClaimGroupView.php on line 120
+[2014-06-11 14:34:05] [View]require_once(): Failed opening required 'C:\www\hrms\code/models/payroll/ClaimClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimApproval.php on line 3
+[2014-06-11 14:36:19] [View]Call to undefined method TravelPlan::getMenuItems() - C:\www\hrms\code\views\claims\ClaimView.php on line 51
+[2014-06-11 14:38:10] [View]Call to undefined method TravelPlan::getMenuItems() - C:\www\hrms\code\views\claims\ClaimView.php on line 51
+[2014-06-11 14:38:59] [View]Call to undefined method TravelPlan::getMenuItems() - C:\www\hrms\code\views\claims\ClaimView.php on line 51
+[2014-06-11 14:39:30] [View]Call to undefined method TravelPlan::getMenuItems() - C:\www\hrms\code\views\claims\ClaimView.php on line 51
+[2014-06-11 15:00:08] [View]require_once(): Failed opening required 'C:\www\hrms\code/models/payroll/ClaimClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimApproval.php on line 3
+[2014-06-11 15:01:18] [View]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimApproval.php on line 3
+[2014-06-11 15:02:15] [View]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimApproval.php on line 3
+[2014-06-11 15:04:20] [View]Call to undefined method TravelPlan::getMenuItems() - C:\www\hrms\code\views\claims\ClaimView.php on line 51
+[2014-06-11 15:21:20] [View]Class 'ProjectClass' not found - C:\www\hrms\code\controllers\attendance\Activity.php on line 129
+[2014-06-11 15:22:43] insert into ACTIVITY (ACT_DESC, ACT_REF, WORKSTATION_ID, MODIFY_BY, CREATE_BY, MODIFY_DATE, CREATE_DATE, ORG_ID) values (:ACT_DESC, :ACT_REF, :WORKSTATION_ID, :MODIFY_BY, :CREATE_BY, :MODIFY_DATE, :CREATE_DATE, :ORG_ID); SELECT SCOPE_IDENTITY()
+[2014-06-11 15:22:43] SQLSTATE[23000]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Cannot insert the value NULL into column 'COY_ID', table 'DB_HRMS.dbo.ACTIVITY'; column does not allow nulls. INSERT fails.
+[2014-06-11 15:22:43] [Activity]Sorry, we are having problem in processing your request due to database problem.
+[2014-06-11 15:52:34] [Service]Undefined class constant 'C_EMP_ID' - C:\www\hrms\code\controllers\attendance\Timesheet.php on line 79
+[2014-06-11 15:56:16] insert into TIMESHEET (TS_DESC, TS_REF, WORKSTATION_ID, C_EMP_ID, PROJ_ID, ACT_ID, BILLABLE, START_DATE, EXPIRY_DATE, MODIFY_BY, CREATE_BY, MODIFY_DATE, CREATE_DATE, ORG_ID) values (:TS_DESC, :TS_REF, :WORKSTATION_ID, :C_EMP_ID, :PROJ_ID, :ACT_ID, :BILLABLE, :START_DATE, :EXPIRY_DATE, :MODIFY_BY, :CREATE_BY, :MODIFY_DATE, :CREATE_DATE, :ORG_ID); SELECT SCOPE_IDENTITY()
+[2014-06-11 15:56:16] SQLSTATE[42S22]: [Microsoft][SQL Server Native Client 11.0][SQL Server]Invalid column name 'C_EMP_ID'.
+[2014-06-11 15:56:16] [Users]Sorry, we are having problem in processing your request due to database problem.
+[2014-06-11 16:01:44] [View]Cannot redefine class constant TimesheetTable::C_BILLABLE - C:\www\hrms\code\tables\attendance\TimesheetTable.php on line 14
+[2014-06-11 16:02:53] [Service]Class 'UserTable' not found - C:\www\hrms\code\controllers\attendance\Timesheet.php on line 124
+[2014-06-11 16:02:56] [Service]Class 'UserTable' not found - C:\www\hrms\code\controllers\attendance\Timesheet.php on line 124
+[2014-06-11 16:03:04] [Service]Class 'UserTable' not found - C:\www\hrms\code\controllers\attendance\Timesheet.php on line 124
+[2014-06-11 16:03:22] [Service]Class 'UserTable' not found - C:\www\hrms\code\controllers\attendance\Timesheet.php on line 124
+[2014-06-11 16:06:34] [View]Undefined index: PROJECT_ID - C:\www\hrms\code\controllers\attendance\Timesheet.php on line 168
+[2014-06-11 16:06:58] [Service]Class 'UserTable' not found - C:\www\hrms\code\controllers\attendance\Timesheet.php on line 124
+[2014-06-11 16:08:06] [View]Undefined index: PROJECT_ID - C:\www\hrms\code\controllers\attendance\Timesheet.php on line 168
+[2014-06-11 16:10:15] [View]Undefined index: PROJECT_ID - C:\www\hrms\code\controllers\attendance\Timesheet.php on line 168
+[2014-06-11 16:11:15] [View]Undefined index: PROJECT_ID - C:\www\hrms\code\controllers\attendance\Timesheet.php on line 168
+[2014-06-11 16:15:13] [View]Undefined index: PROJECT_ID - C:\www\hrms\code\controllers\attendance\Timesheet.php on line 168
+[2014-06-11 16:16:23] [View]Undefined index: PROJECT_ID - C:\www\hrms\code\controllers\attendance\Timesheet.php on line 168
+[2014-06-11 16:17:33] [View]Undefined index: PROJECT_ID - C:\www\hrms\code\controllers\attendance\Timesheet.php on line 168
+[2014-06-11 16:28:16] [View]Undefined index: PROJECT_ID - C:\www\hrms\code\controllers\attendance\Timesheet.php on line 168
+[2014-06-11 16:29:51] [View]Undefined index: PROJECT_ID - C:\www\hrms\code\controllers\attendance\Timesheet.php on line 168
+[2014-06-11 16:55:46] [View]Undefined index: PROJECT_ID - C:\www\hrms\code\controllers\attendance\Timesheet.php on line 168
+[2014-06-11 17:24:11] [View]Undefined index: PROJECT_ID - C:\www\hrms\code\controllers\attendance\Timesheet.php on line 169
+[2014-06-11 17:29:24] [View]Undefined index: PROJECT_ID - C:\www\hrms\code\controllers\attendance\Timesheet.php on line 168

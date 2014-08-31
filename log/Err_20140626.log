@@ -1,0 +1,50 @@
+[2014-06-26 16:32:27] 
+[2014-06-26 16:32:27] 
+[2014-06-26 16:32:27] SQLSTATE[HY090]: [Microsoft][ODBC Driver Manager] Invalid string or buffer length
+[2014-06-26 16:32:27] [Service]Undefined variable: sql - C:\www\hrms\code\controllers\claims\ClaimItem.php on line 230
+[2014-06-26 16:36:25] 
+[2014-06-26 16:36:25] 
+[2014-06-26 16:36:25] SQLSTATE[HY090]: [Microsoft][ODBC Driver Manager] Invalid string or buffer length
+[2014-06-26 16:36:25] [Service]Undefined offset: 0 - C:\www\hrms\code\controllers\claims\ClaimGroupEmployee.php on line 203
+[2014-06-26 16:42:21] 
+[2014-06-26 16:42:21] 
+[2014-06-26 16:42:21] SQLSTATE[HY090]: [Microsoft][ODBC Driver Manager] Invalid string or buffer length
+[2014-06-26 16:42:21] [Service]Undefined index: CLAIM_GROUP_ID - C:\www\hrms\code\controllers\claims\ClaimGroupEmployee.php on line 204
+[2014-06-26 16:45:49] 
+[2014-06-26 16:45:49] 
+[2014-06-26 16:45:49] SQLSTATE[HY090]: [Microsoft][ODBC Driver Manager] Invalid string or buffer length
+[2014-06-26 16:45:49] [Service]Undefined index: CLAIM_GROUP_ID - C:\www\hrms\code\controllers\claims\ClaimGroupEmployee.php on line 204
+[2014-06-26 16:46:33] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/payroll/ClaimItemClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimItemApproval.php on line 3
+[2014-06-26 16:46:34] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/payroll/ClaimDocumentClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimDocumentApproval.php on line 3
+[2014-06-26 16:54:00] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/payroll/ClaimItemClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimItemApproval.php on line 3
+[2014-06-26 16:54:00] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/payroll/ClaimDocumentClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimDocumentApproval.php on line 3
+[2014-06-26 16:57:16] [Service]require_once(): Failed opening required 'C:\www\hrms\code/models/claims/ClaimItemClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimItemApproval.php on line 3
+[2014-06-26 16:57:16] [Service]Undefined class constant 'C_CLAIM_ID' - C:\www\hrms\code\controllers\claims\ClaimDocumentApproval.php on line 77
+[2014-06-26 17:17:07] 
+[2014-06-26 17:17:07] 
+[2014-06-26 17:17:07] SQLSTATE[HY090]: [Microsoft][ODBC Driver Manager] Invalid string or buffer length
+[2014-06-26 17:17:07] [Service]Undefined index: CLAIM_GROUP_ID - C:\www\hrms\code\controllers\claims\ClaimGroupEmployee.php on line 204
+[2014-06-26 17:19:53] Claim by 1
+[2014-06-26 17:19:53] 
+[2014-06-26 17:19:53] 
+[2014-06-26 17:19:53] SQLSTATE[HY090]: [Microsoft][ODBC Driver Manager] Invalid string or buffer length
+[2014-06-26 17:19:53] [Service]Undefined index: CLAIM_GROUP_ID - C:\www\hrms\code\controllers\claims\ClaimGroupEmployee.php on line 204
+[2014-06-26 17:21:01] Claim by 1
+[2014-06-26 17:21:01] 
+[2014-06-26 17:21:01] SQLSTATE[HY090]: [Microsoft][ODBC Driver Manager] Invalid string or buffer length
+[2014-06-26 17:21:01] [Service]Undefined index: CLAIM_GROUP_ID - C:\www\hrms\code\controllers\claims\ClaimGroupEmployee.php on line 204
+[2014-06-26 17:24:05] Claim by 1
+[2014-06-26 17:24:05] 
+[2014-06-26 17:24:05] SQLSTATE[HY090]: [Microsoft][ODBC Driver Manager] Invalid string or buffer length
+[2014-06-26 17:24:05] [Service]Undefined index: CLAIM_GROUP_ID - C:\www\hrms\code\controllers\claims\ClaimGroupEmployee.php on line 204
+[2014-06-26 17:25:10] Claim by 1
+[2014-06-26 17:25:10] 
+[2014-06-26 17:25:10] SQLSTATE[HY090]: [Microsoft][ODBC Driver Manager] Invalid string or buffer length
+[2014-06-26 17:25:10] [Service]Undefined index: CLAIM_GROUP_ID - C:\www\hrms\code\controllers\claims\ClaimGroupEmployee.php on line 204
+[2014-06-26 17:27:17] Claim by 1
+[2014-06-26 17:27:17] 
+[2014-06-26 17:27:17] SQLSTATE[HY090]: [Microsoft][ODBC Driver Manager] Invalid string or buffer length
+[2014-06-26 17:29:37] 
+[2014-06-26 17:29:37] SQLSTATE[HY090]: [Microsoft][ODBC Driver Manager] Invalid string or buffer length
+[2014-06-26 17:38:24] 
+[2014-06-26 17:38:24] SQLSTATE[HY090]: [Microsoft][ODBC Driver Manager] Invalid string or buffer length

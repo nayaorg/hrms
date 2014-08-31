@@ -1,0 +1,21 @@
+[2014-06-10 14:22:37] select  from 2 where  = :
+[2014-06-10 14:22:37] [DbAdapter][getRow]SQLSTATE[IMSSP]: Tried to bind parameter number 0.  SQL Server supports a maximum of 2100 parameters.
+[2014-06-10 14:22:37] [View]Undefined variable: id - D:\www\hrms\code\controllers\base\ControllerBase.php on line 90
+[2014-06-10 16:15:03] [View]Uninitialized string offset: 0 - C:\www\hrms\code\controllers\base\ControllerBase.php on line 76
+[2014-06-10 16:19:52] [View]Uninitialized string offset: 0 - C:\www\hrms\code\controllers\base\ControllerBase.php on line 76
+[2014-06-10 16:22:05] [View]Uninitialized string offset: 0 - C:\www\hrms\code\controllers\base\ControllerBase.php on line 76
+[2014-06-10 16:23:20] [View]Uninitialized string offset: 0 - C:\www\hrms\code\controllers\base\ControllerBase.php on line 76
+[2014-06-10 16:25:42] [Service]Undefined class constant 'C_DESC' - C:\www\hrms\code\models\attendance\TimeCardLimitClass.php on line 10
+[2014-06-10 16:26:39] [Service]Undefined class constant 'C_DESC' - C:\www\hrms\code\models\attendance\TimeCardLimitClass.php on line 10
+[2014-06-10 16:28:36] [Service]Undefined class constant 'C_ID' - C:\www\hrms\code\models\attendance\AttendanceProjectClass.php on line 9
+[2014-06-10 16:33:15] [View]include(): Failed opening 'C:\www\hrms\code/js/payroll/claimgroupmember.js' for inclusion (include_path='.;C:\php\pear') - C:\www\hrms\code\views\claims\ClaimGroupView.php on line 120
+[2014-06-10 16:35:09] [View]include(): Failed opening 'C:\www\hrms\code/js/payroll/claimgroupmember.js' for inclusion (include_path='.;C:\php\pear') - C:\www\hrms\code\views\claims\ClaimGroupView.php on line 120
+[2014-06-10 16:38:30] [View]include(): Failed opening 'C:\www\hrms\code/js/payroll/claimgroupmember.js' for inclusion (include_path='.;C:\php\pear') - C:\www\hrms\code\views\claims\ClaimGroupView.php on line 120
+[2014-06-10 16:38:38] [View]Call to undefined method TravelPlan::getMenuItems() - C:\www\hrms\code\views\claims\ClaimView.php on line 51
+[2014-06-10 16:38:39] [View]require_once(): Failed opening required 'C:\www\hrms\code/models/payroll/ClaimClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimApproval.php on line 3
+[2014-06-10 16:38:43] [View]Call to undefined method TravelPlan::getMenuItems() - C:\www\hrms\code\views\claims\ClaimView.php on line 51
+[2014-06-10 16:38:43] [View]require_once(): Failed opening required 'C:\www\hrms\code/models/payroll/ClaimClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimApproval.php on line 3
+[2014-06-10 16:39:00] [View]Call to undefined method TravelPlan::getMenuItems() - C:\www\hrms\code\views\claims\ClaimView.php on line 51
+[2014-06-10 16:39:18] [View]require_once(): Failed opening required 'C:\www\hrms\code/models/payroll/ClaimClass.php' (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\claims\ClaimApproval.php on line 3
+[2014-06-10 17:07:29] [View]Call to a member function read() on a non-object - C:\www\hrms\code\lib\Util.php on line 211
+[2014-06-10 17:11:11] [View]Call to a member function read() on a non-object - C:\www\hrms\code\lib\Util.php on line 211

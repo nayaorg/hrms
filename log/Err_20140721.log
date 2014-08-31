@@ -1,0 +1,9 @@
+[2014-07-21 13:02:39] [WebView]class not found : , page : Signin
+[2014-07-21 13:02:39] [WebView]Class 'Signin' not found - C:\www\hrms\code\WebView.php on line 82
+[2014-07-21 13:03:07] [WebView]class not found : , page : Signin
+[2014-07-21 13:03:07] [WebView]Class 'Signin' not found - C:\www\hrms\code\WebView.php on line 82
+[2014-07-21 13:04:05] [WebView]class not found : , page : Signin
+[2014-07-21 13:04:05] [WebView]Class 'Signin' not found - C:\www\hrms\code\WebView.php on line 82
+[2014-07-21 13:04:07] [WebView]class not found : , page : Signin
+[2014-07-21 13:04:07] [WebView]Class 'Signin' not found - C:\www\hrms\code\WebView.php on line 82
+[2014-07-21 13:04:56] [WebView]include(): Failed opening 'C:\www\hrms\code/views/portal/SigninView.php' for inclusion (include_path='.;C:\php\pear') - C:\www\hrms\code\controllers\portal\Signin.php on line 187
