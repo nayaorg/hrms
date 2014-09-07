@@ -1,0 +1,83 @@
+$('#btnClaimAdd').button().bind('click',addClaim) ;
+
+
+function addClaim() {
+	saveClaim(C_ADD) ;
+}
+
+function saveClaim(type) {
+	if (validateClaim()) {
+		var data = { "type": type, 
+			"desc": $('#txtClaimDesc').val(), 
+			"claim_type": $('#cobClaimType').val(), 
+			"date": $('#txtClaimDate').val(), 
+			"travel_plan": $('#cobTravelPlan').val(),
+			"claim_by": $('#cobEmpId').val(), 
+			};
+		var url = "index.pzx?c=" + claim_url + "&d=" + new Date().getTime() ;
+		callServer(url,"json",data,onClaimResponse,null) ;
+	}
+}
+
+function onClaimResponse(obj,resp) {
+	alert("ok");
+	//go back to the claim general thing
+	var data = {'type':''} ;
+	$(".content").load(home_url,data,function() {hideProgress();}) ;
+}
+
+function validateClaim() {
+	var allValid = true;
+
+	$('#claim_err_mesg').text('') ;
+	if ($('#txtClaimDesc').blank())
+	{
+		$('#claim_err_desc').show() ;
+		$('#txtClaimDesc').focus() ;
+		$('#claim_err_mesg').text("Please enter the required fields.") ;
+		allValid = false ;
+	}
+	else 
+		$('#claim_err_desc').hide() ;
+	
+	if ($('#cobClaimType').blank())
+	{
+		$('#claim_err_type').show() ;
+		$('#cobClaimType').focus() ;
+		$('#claim_err_mesg').text("Please enter the required fields.") ;
+		allValid = false ;
+	}
+	else 
+		$('#claim_err_type').hide() ;
+		
+	if ($('#txtClaimDate').blank())
+	{
+		$('#claim_err_date').show() ;
+		$('#claim_err_mesg').text("Please enter the required fields.") ;
+		allValid = false ;
+	}
+	else 
+		$('#claim_err_date').hide() ;
+		
+	if ($('#cobEmpId').val() == 0)
+	{
+		$('#claim_by_err').show() ;
+		$('#cobEmpId').focus() ;
+		$('#claim_err_mesg').text("Please enter the required fields.") ;
+		allValid = false ;
+	}
+	else 
+		$('#claim_by_err').hide() ;
+		
+	if ($('#cobTravelPlan').val() == 0)
+	{
+		$('#travel_plan_err').show() ;
+		$('#cobTravelPlan').focus() ;
+		$('#claim_err_mesg').text("Please enter the required fields.") ;
+		allValid = false ;
+	}
+	else 
+		$('#travel_plan_err').hide() ;
+
+	return allValid ;
+}

@@ -38,7 +38,7 @@ class MsSqlDb extends DbAdapter {
 			$stme = null ;
 		} catch (Exception $e) {
 			Log::write($e->getMessage(),$sql) ;
-			throw new Exception(Message::DB_ERR_QUERY) ;
+			throw new Exception("Hi," . Message::DB_ERR_QUERY) ;
 		}
 	}
 	

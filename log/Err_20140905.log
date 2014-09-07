@@ -1,0 +1,79 @@
+[2014-09-05 09:16:05] processQuery
+[2014-09-05 09:16:05] processLogin : index.pzx?c=4b73ffc12a6a84cf32b48b97fb732f4f769dad4dbdb18eb81a1937cddf74a7d9
+[2014-09-05 09:16:13] [WebView]class not found : 82b057b29db8a1c68a31f629ee8e331194fe572cc80db061affbdd7f2a2afbfb, page : Signin
+[2014-09-05 09:16:16] processQuery
+[2014-09-05 09:16:16] processLogin : index.pzx?c=b9f1c1f9f6068b02b6c7fe93309834ad65592b7fb96a10d0c14c31d6b46ebb14
+[2014-09-05 09:46:05] select * from CLAIM_HEADER where ORG_ID = :ORG_ID and CLAIM_EMP_ID = :CLAIM_EMP_ID and CLAIM_DATE >= :CLAIM_DATE and CLAIM_DATE <= :CLAIM_DATE order by CLAIM_ID
+[2014-09-05 09:46:05] SQLSTATE[07002]: [Microsoft][SQL Server Native Client 11.0]COUNT field incorrect or syntax error
+[2014-09-05 09:46:06] [WebView]date_format() expects parameter 1 to be DateTime, string given - D:\www\hrms\code\controllers\portal\Home.php on line 113
+[2014-09-05 09:46:10] select * from CLAIM_HEADER where ORG_ID = :ORG_ID and CLAIM_EMP_ID = :CLAIM_EMP_ID and CLAIM_DATE >= :CLAIM_DATE and CLAIM_DATE <= :CLAIM_DATE order by CLAIM_ID
+[2014-09-05 09:46:10] SQLSTATE[07002]: [Microsoft][SQL Server Native Client 11.0]COUNT field incorrect or syntax error
+[2014-09-05 09:46:10] [WebView]date_format() expects parameter 1 to be DateTime, string given - D:\www\hrms\code\controllers\portal\Home.php on line 113
+[2014-09-05 09:47:44] select * from CLAIM_HEADER where ORG_ID = :ORG_ID and CLAIM_EMP_ID = :CLAIM_EMP_ID and CLAIM_DATE >= :CLAIM_DATE and CLAIM_DATE <= :CLAIM_DATE order by CLAIM_ID
+[2014-09-05 09:47:44] SQLSTATE[07002]: [Microsoft][SQL Server Native Client 11.0]COUNT field incorrect or syntax error
+[2014-09-05 09:47:44] [WebView]date_format() expects parameter 1 to be DateTime, string given - D:\www\hrms\code\controllers\portal\Home.php on line 113
+[2014-09-05 09:47:47] select * from CLAIM_HEADER where ORG_ID = :ORG_ID and CLAIM_EMP_ID = :CLAIM_EMP_ID and CLAIM_DATE >= :CLAIM_DATE and CLAIM_DATE <= :CLAIM_DATE order by CLAIM_ID
+[2014-09-05 09:47:47] SQLSTATE[07002]: [Microsoft][SQL Server Native Client 11.0]COUNT field incorrect or syntax error
+[2014-09-05 09:47:47] [WebView]date_format() expects parameter 1 to be DateTime, string given - D:\www\hrms\code\controllers\portal\Home.php on line 113
+[2014-09-05 09:50:07] select * from CLAIM_HEADER where ORG_ID = :ORG_ID and CLAIM_EMP_ID = :CLAIM_EMP_ID and CLAIM_DATE >= :CLAIM_DATE and CLAIM_DATE <= :CLAIM_DATE order by CLAIM_ID
+[2014-09-05 09:50:07] SQLSTATE[07002]: [Microsoft][SQL Server Native Client 11.0]COUNT field incorrect or syntax error
+[2014-09-05 09:56:33] select * from CLAIM_HEADER where ORG_ID = :ORG_ID and CLAIM_EMP_ID = :CLAIM_EMP_ID and CLAIM_DATE >= :CLAIM_DATE and CLAIM_DATE <= :CLAIM_DATE order by CLAIM_ID
+[2014-09-05 09:56:33] SQLSTATE[07002]: [Microsoft][SQL Server Native Client 11.0]COUNT field incorrect or syntax error
+[2014-09-05 10:11:45] [WebView]Call to undefined method MsSqlDb::btwAndFieldParam() - D:\www\hrms\code\controllers\portal\Home.php on line 124
+[2014-09-05 10:26:29] [WebView]date_format() expects parameter 1 to be DateTime, boolean given - D:\www\hrms\code\controllers\portal\Home.php on line 117
+[2014-09-05 10:26:50] [WebView]date_format() expects parameter 1 to be DateTime, boolean given - D:\www\hrms\code\controllers\portal\Home.php on line 117
+[2014-09-05 10:26:59] [WebView]date_format() expects parameter 1 to be DateTime, boolean given - D:\www\hrms\code\controllers\portal\Home.php on line 117
+[2014-09-05 10:27:05] [WebView]date_format() expects parameter 1 to be DateTime, boolean given - D:\www\hrms\code\controllers\portal\Home.php on line 117
+[2014-09-05 10:28:19] [WebView]date_format() expects parameter 1 to be DateTime, boolean given - D:\www\hrms\code\controllers\portal\Home.php on line 117
+[2014-09-05 10:29:02] [WebView]date_format() expects parameter 1 to be DateTime, boolean given - D:\www\hrms\code\controllers\portal\Home.php on line 118
+[2014-09-05 10:29:06] [WebView]date_format() expects parameter 1 to be DateTime, boolean given - D:\www\hrms\code\controllers\portal\Home.php on line 118
+[2014-09-05 10:29:28] [WebView]date_format() expects parameter 1 to be DateTime, boolean given - D:\www\hrms\code\controllers\portal\Home.php on line 118
+[2014-09-05 10:30:49] [WebView]date_format() expects parameter 1 to be DateTime, boolean given - D:\www\hrms\code\controllers\portal\Home.php on line 118
+[2014-09-05 10:30:53] [WebView]date_format() expects parameter 1 to be DateTime, boolean given - D:\www\hrms\code\controllers\portal\Home.php on line 118
+[2014-09-05 10:31:17] [WebView]date_format() expects parameter 1 to be DateTime, boolean given - D:\www\hrms\code\controllers\portal\Home.php on line 119
+[2014-09-05 10:34:03] [WebView]date_format() expects parameter 1 to be DateTime, boolean given - D:\www\hrms\code\controllers\portal\Home.php on line 117
+[2014-09-05 10:37:45] [WebView]date_format() expects parameter 1 to be DateTime, boolean given - D:\www\hrms\code\controllers\portal\Home.php on line 118
+[2014-09-05 10:37:51] [WebView]date_format() expects parameter 1 to be DateTime, boolean given - D:\www\hrms\code\controllers\portal\Home.php on line 118
+[2014-09-05 10:43:01] [WebView]Call to a member function format() on a non-object - D:\www\hrms\code\controllers\portal\Home.php on line 123
+[2014-09-05 10:43:07] [WebView]Call to a member function format() on a non-object - D:\www\hrms\code\controllers\portal\Home.php on line 123
+[2014-09-05 10:43:16] [WebView]Call to a member function format() on a non-object - D:\www\hrms\code\controllers\portal\Home.php on line 123
+[2014-09-05 10:43:52] [WebView]Undefined variable: toDateFormat - D:\www\hrms\code\controllers\portal\Home.php on line 127
+[2014-09-05 10:43:57] [WebView]Undefined variable: toDateFormat - D:\www\hrms\code\controllers\portal\Home.php on line 127
+[2014-09-05 10:53:41] processQuery
+[2014-09-05 10:53:41] processLogin : index.pzx?c=e219df0cc6843e976ae38f61e1632d148facf65ca370d98d0f3ce6b346848768
+[2014-09-05 11:08:55] [WebView]Undefined property: Home::$processExpenseInfo - D:\www\hrms\code\views\portal\HomeView.php on line 140
+[2014-09-05 11:30:08] [WebView]Use of undefined constant PORTAL_CLAIM_ADD_VIEW - assumed 'PORTAL_CLAIM_ADD_VIEW' - D:\www\hrms\code\views\portal\ExpenseInfoView.php on line 30
+[2014-09-05 11:30:10] [WebView]Use of undefined constant PORTAL_CLAIM_ADD_VIEW - assumed 'PORTAL_CLAIM_ADD_VIEW' - D:\www\hrms\code\views\portal\ExpenseInfoView.php on line 30
+[2014-09-05 11:32:35] [WebView]class not found : d8f71282f5cb4bdd80d3b490899b192fcd93c52ba9ccb2a998ef2f1ac979a062, page : Signin
+[2014-09-05 11:32:37] processQuery
+[2014-09-05 11:32:37] processLogin : index.pzx?c=4b73ffc12a6a84cf32b48b97fb732f4f769dad4dbdb18eb81a1937cddf74a7d9
+[2014-09-05 11:55:48] [WebView]syntax error, unexpected '\' (T_NS_SEPARATOR) - D:\www\hrms\code\js\portal\home.js on line 90
+[2014-09-05 12:12:59] [WebView]Array to string conversion - D:\www\hrms\code\views\portal\ExpenseInfoView.php on line 31
+[2014-09-05 12:13:34] [WebView]Array to string conversion - D:\www\hrms\code\views\portal\ExpenseInfoView.php on line 31
+[2014-09-05 12:15:12] [WebView]Array to string conversion - D:\www\hrms\code\views\portal\ExpenseInfoView.php on line 31
+[2014-09-05 12:17:03] [WebView]Array to string conversion - D:\www\hrms\code\views\portal\ExpenseInfoView.php on line 31
+[2014-09-05 12:17:24] [WebView]Array to string conversion - D:\www\hrms\code\views\portal\ExpenseInfoView.php on line 31
+[2014-09-05 12:19:15] [WebView]Array to string conversion - D:\www\hrms\code\views\portal\ExpenseInfoView.php on line 31
+[2014-09-05 12:22:35] [WebView]Array to string conversion - D:\www\hrms\code\views\portal\ExpenseInfoView.php on line 31
+[2014-09-05 12:29:11] [WebView]Array to string conversion - D:\www\hrms\code\views\portal\ExpenseInfoView.php on line 72
+[2014-09-05 12:30:23] [WebView]Array to string conversion - D:\www\hrms\code\views\portal\ExpenseInfoView.php on line 72
+[2014-09-05 12:30:28] [WebView]Array to string conversion - D:\www\hrms\code\views\portal\ExpenseInfoView.php on line 72
+[2014-09-05 12:31:02] [WebView]Array to string conversion - D:\www\hrms\code\views\portal\ExpenseInfoView.php on line 72
+[2014-09-05 12:31:26] [WebView]Array to string conversion - D:\www\hrms\code\views\portal\ExpenseInfoView.php on line 72
+[2014-09-05 13:37:39] [WebView]Class 'Date' not found - D:\www\hrms\code\controllers\portal\Home.php on line 179
+[2014-09-05 13:37:59] [WebView]syntax error, unexpected ']', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) - D:\www\hrms\code\controllers\portal\Home.php on line 181
+[2014-09-05 13:53:13] [WebView]syntax error, unexpected '"Home\",\"Home Master\", PORTA' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) - D:\www\hrms\code\js\portal\home.js on line 89
+[2014-09-05 13:53:14] [WebView]syntax error, unexpected '"Home\",\"Home Master\", PORTA' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) - D:\www\hrms\code\js\portal\home.js on line 89
+[2014-09-05 13:53:46] [WebView]syntax error, unexpected '"Home\",\"Home Master\", PORTA' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) - D:\www\hrms\code\js\portal\home.js on line 89
+[2014-09-05 13:54:45] [WebView]syntax error, unexpected '"Home\",\"Home Master\", PORTA' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) - D:\www\hrms\code\js\portal\home.js on line 89
+[2014-09-05 14:12:07] [WebView]Use of undefined constant ClaimMenu - assumed 'ClaimMenu' - D:\www\hrms\code\controllers\portal\Home.php on line 184
+[2014-09-05 15:35:35] [View]class not found : 30b6339aa2e03379adfcedc3be17b091e482a9ea51b428ce8a46c1c0aacafe19, page : Login
+[2014-09-05 16:05:33] [Service]session_start(): ps_files_cleanup_dir: opendir(C:\Windows\TEMP) failed: No such file or directory (2) - D:\www\hrms\code\Service.php on line 29
+[2014-09-05 16:34:38] processQuery
+[2014-09-05 16:34:38] processLogin : index.pzx?c=b9f1c1f9f6068b02b6c7fe93309834ad65592b7fb96a10d0c14c31d6b46ebb14
+[2014-09-05 16:41:32] processQuery
+[2014-09-05 16:41:32] processLogin : index.pzx?c=b9f1c1f9f6068b02b6c7fe93309834ad65592b7fb96a10d0c14c31d6b46ebb14
+[2014-09-05 16:41:37] processQuery
+[2014-09-05 16:41:37] processLogin : index.pzx?c=b9f1c1f9f6068b02b6c7fe93309834ad65592b7fb96a10d0c14c31d6b46ebb14
+[2014-09-05 17:47:43] [WebView]Call to undefined method PortalClaim::loadSetting() - D:\www\hrms\code\controllers\portal\PortalClaim.php on line 19
+[2014-09-05 17:56:02] [WebView]Call to undefined method Home::getClaimList() - D:\www\hrms\code\views\portal\ExpenseInfoView.php on line 51

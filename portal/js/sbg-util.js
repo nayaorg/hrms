@@ -60,7 +60,7 @@ function callServer(url,type,data,callback,obj) {
 	showProgress("") ;
 	$.ajax({
 		url: url,
-		success: function(response) { hideProgress();callback(obj,response) ; },
+		success: function(response) { hideProgress(); callback(obj,response) ; },
 		error: onError,
 		data: data,
 		dataType: type,

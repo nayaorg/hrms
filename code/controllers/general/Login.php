@@ -12,6 +12,7 @@ class Login extends ControllerBase {
 		unset($this->user) ;
 	}
 	public function processRequest($params) {
+	
 		$username = "" ;
 		$pwd = "" ;
 		$type = REQ_VIEW ;

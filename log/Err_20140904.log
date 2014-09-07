@@ -1,0 +1,27 @@
+[2014-09-04 09:06:10] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-09-04 09:06:10] [DbAdapter][open]SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF]. 
+[2014-09-04 09:06:10] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-09-04 09:06:10] [DbAdapter][open]SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF]. 
+[2014-09-04 09:07:53] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-09-04 09:07:53] [DbAdapter][open]SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF]. 
+[2014-09-04 09:08:10] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-09-04 09:08:10] [DbAdapter][open]SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF]. 
+[2014-09-04 09:09:29] processQuery
+[2014-09-04 09:09:29] processLogin : index.pzx?c=b9f1c1f9f6068b02b6c7fe93309834ad65592b7fb96a10d0c14c31d6b46ebb14
+[2014-09-04 09:52:38] processQuery
+[2014-09-04 09:52:38] processLogin : index.pzx?c=b9f1c1f9f6068b02b6c7fe93309834ad65592b7fb96a10d0c14c31d6b46ebb14
+[2014-09-04 09:52:39] processQuery
+[2014-09-04 09:52:39] processLogin : index.pzx?c=d8f71282f5cb4bdd80d3b490899b192fcd93c52ba9ccb2a998ef2f1ac979a062
+[2014-09-04 12:15:59] [WebView]Undefined variable: PHP_SELF - D:\www\hrms\code\views\portal\HomeInfoExpenseView.php on line 8
+[2014-09-04 12:16:01] processQuery
+[2014-09-04 12:16:01] processLogin : index.pzx?c=b9f1c1f9f6068b02b6c7fe93309834ad65592b7fb96a10d0c14c31d6b46ebb14
+[2014-09-04 12:16:01] [WebView]Undefined variable: PHP_SELF - D:\www\hrms\code\views\portal\HomeInfoExpenseView.php on line 8
+[2014-09-04 12:16:02] processQuery
+[2014-09-04 12:16:02] processLogin : index.pzx?c=b9f1c1f9f6068b02b6c7fe93309834ad65592b7fb96a10d0c14c31d6b46ebb14
+[2014-09-04 12:16:02] [WebView]Undefined variable: PHP_SELF - D:\www\hrms\code\views\portal\HomeInfoExpenseView.php on line 8
+[2014-09-04 12:16:27] processQuery
+[2014-09-04 12:16:27] processLogin : index.pzx?c=b9f1c1f9f6068b02b6c7fe93309834ad65592b7fb96a10d0c14c31d6b46ebb14
+[2014-09-04 12:16:27] [WebView]Undefined variable: PHP_SELF - D:\www\hrms\code\views\portal\HomeInfoExpenseView.php on line 9
+[2014-09-04 17:02:39] [WebView]Undefined variable: data - D:\www\hrms\code\WebView.php on line 104
+[2014-09-04 17:28:27] [WebView]Call to undefined function getClaimList() - D:\www\hrms\code\controllers\portal\Home.php on line 54
+[2014-09-04 17:28:32] [WebView]Call to undefined function getClaimList() - D:\www\hrms\code\controllers\portal\Home.php on line 54

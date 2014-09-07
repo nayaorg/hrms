@@ -16,6 +16,8 @@ define("SE_REMOTE_IP","remoteip") ;
 define("SE_ORGNAME", "orgname") ;
 define("SE_ORGCODE", "orgcode") ;
 
+define("NUM_CLAIM_SHOW",5) ;
+
 $path = $_SERVER['DOCUMENT_ROOT'] ;
 if ($path != "/")
 	$path = $path . "/" ;
@@ -73,6 +75,15 @@ define("REQ_QUERY","q") ;
 define("REQ_REPORT","r") ;
 define("REQ_UPDATE","u") ;
 define("REQ_VIEW","v") ;
+define("REQ_CLAIM_FILTER","c_f") ;
+
+
+define("PORTAL_HOME","p_h") ;
+define("PORTAL_CLAIM","p_e") ;
+define("PORTAL_LEAVES","p_l") ;
+define("PORTAL_CALENDAR","p_c") ;
+define("PORTAL_CLAIM_ADD_VIEW","p_c_a_v") ;
+
 
 define("ATTENDANCE_STATUS_O", "Off Duty");
 define("ATTENDANCE_STATUS_T", "Time Off");
@@ -146,4 +157,13 @@ class ExpenseItemType {
 	const Project = 2 ;
 	const Other = 3 ;
 }
+
+class MenuName {
+	const HomeMenu = "Home";
+	const ClaimMenu= "Claim";
+	const LeaveMenu= "Leave";
+	const CalendarMenu = "Calendar";
+}
+
+
 ?>

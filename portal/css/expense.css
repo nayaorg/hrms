@@ -1,0 +1,16 @@
+/* Layouts */
+.filter-unit {
+	margin-right: 40px; 
+	float: left;
+}
+
+.add-claim-btn {
+	float: right;
+}
+
+#errorShow {
+	color: red;
+	float: left;
+	font-size: 10px;
+	padding-top: 10px;
+}

@@ -1,0 +1,30 @@
+[2014-09-02 10:03:33] processQuery
+[2014-09-02 10:03:33] processLogin : index.pzx?c=82b057b29db8a1c68a31f629ee8e331194fe572cc80db061affbdd7f2a2afbfb
+[2014-09-02 10:03:38] processQuery
+[2014-09-02 10:03:38] processLogin : index.pzx?c=bde0450f1b0c8a5265b44826e71a70f850aed8c44559eca5cf894fda4aa0d340
+[2014-09-02 10:26:27] processQuery
+[2014-09-02 10:26:27] processLogin : index.pzx?c=6fdbc16336498dc959b7d247b48ead7d8eeb6473432b31255aa7cd2ee7afe5ad
+[2014-09-02 10:38:04] processQuery
+[2014-09-02 10:38:04] processLogin : index.pzx?c=6fdbc16336498dc959b7d247b48ead7d8eeb6473432b31255aa7cd2ee7afe5ad
+[2014-09-02 10:47:44] processQuery
+[2014-09-02 10:47:44] processLogin : index.pzx?c=a363ce9fe25599cca57b3dae3a98cc9fa9695207b32e37c3ddf1c31a3ee93a5a
+[2014-09-02 11:40:15] processQuery
+[2014-09-02 11:40:15] processLogin : index.pzx?c=82b057b29db8a1c68a31f629ee8e331194fe572cc80db061affbdd7f2a2afbfb
+[2014-09-02 11:48:24] [WebView]Undefined variable: page - D:\www\hrms\code\WebView.php on line 53
+[2014-09-02 11:50:34] [WebView]session_start(): ps_files_cleanup_dir: opendir(C:\Windows\TEMP) failed: No such file or directory (2) - D:\www\hrms\code\WebView.php on line 32
+[2014-09-02 12:03:34] [WebView]Call to undefined method Home::getView() - D:\www\hrms\code\controllers\portal\Home.php on line 42
+[2014-09-02 12:14:51] [WebView]Undefined variable: GET - D:\www\hrms\code\WebView.php on line 92
+[2014-09-02 12:14:53] [WebView]Undefined variable: GET - D:\www\hrms\code\WebView.php on line 92
+[2014-09-02 12:38:49] [View]session_start(): ps_files_cleanup_dir: opendir(C:\Windows\TEMP) failed: No such file or directory (2) - D:\www\hrms\code\View.php on line 31
+[2014-09-02 14:44:28] processQuery
+[2014-09-02 14:44:28] processLogin : index.pzx?c=8d8c9701e6bf5a7fe919e4b8c117107720c40ce5d2c2e01bd6f159b7d9c9cf86
+[2014-09-02 15:39:20] processQuery
+[2014-09-02 15:39:20] processLogin : index.pzx?c=d5b5f6a322862aa179f243b812e2441ca9ceb00feb9e0a7f1641f8c0f1e4d233
+[2014-09-02 15:44:22] processQuery
+[2014-09-02 15:44:22] processLogin : index.pzx?c=d5b5f6a322862aa179f243b812e2441ca9ceb00feb9e0a7f1641f8c0f1e4d233
+[2014-09-02 16:05:22] processQuery
+[2014-09-02 16:05:22] processLogin : index.pzx?c=d5b5f6a322862aa179f243b812e2441ca9ceb00feb9e0a7f1641f8c0f1e4d233
+[2014-09-02 16:47:13] processQuery
+[2014-09-02 16:47:13] processLogin : index.pzx?c=c494030acc7599af9cd20d4d4dc65f5aade4a4728e33b7c020c9b61f0f9074c7
+[2014-09-02 17:02:55] processQuery
+[2014-09-02 17:02:55] processLogin : index.pzx?c=cb022e958a9f862ae01b713d9196e90d95ddbe7489215df370187e68d4aeeb5b

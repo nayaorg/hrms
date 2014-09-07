@@ -12,6 +12,7 @@ require_once(PATH_CODE . "database/MySqlDb.php") ;
 require_once(PATH_CODE . "database/MySqliDb.php") ;
 require_once('ConfigDb.php') ;
 
+
 function myException($e)
 {
 	Log::write('[WebView]' . $e->getMessage(),"") ;
@@ -31,6 +32,7 @@ function fatalErrorShutdownHandler()
 if (session_id() == "") 
 	session_start(); 
 
+
 if (!isset($_SESSION[SE_INIT]) || $_SESSION[SE_INIT] == false ){
     session_regenerate_id();
     $_SESSION[SE_INIT] = true;
@@ -48,7 +50,6 @@ else
 	$oldseid = "" ;
 	
 $_SESSION[SE_ID] = session_id() ;
-
 if (!isset($_SESSION[SE_DB])) {
 	$config = new ConfigDb(PATH_CODE . 'db.xml') ;
 	$config->loadConfig() ;
@@ -77,8 +78,22 @@ if (!class_exists($page)) {
 	$page = "Signin" ;
 	Log::write("[WebView]class not found : " . $class . ", page : " . $page) ;
 } 
+
+
 $params = array() ;
-$params['type'] = 'v' ;
+
+if (isset($_GET['t'])){
+	$params['type'] = $_GET['t'] ;
+} else {
+	$params['type'] = 'v' ;
+}
+
+if ($_POST) {
+	foreach ($_POST as $key => $value) {
+		$params[$key] = $value;
+	}
+}
+
 $called = call_user_func_array(array(new $page,"processRequest"),array($params)) ;
 if ($called == FALSE) {
 	echo "<h2>invalid request - call fail</h2>" ;

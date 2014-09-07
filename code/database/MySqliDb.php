@@ -164,6 +164,7 @@ class MySqliDb implements iDatabase {
 	public function fieldParam($field,$logicalOperator='=',$prefix="") {
 		return $prefix.$field . " " . $logicalOperator . "?" ;
 	}
+	
 	public function valueParam($field,$value) {
 		return array('field'=>'?','value'=>$value) ;
 	}

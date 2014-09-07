@@ -71,6 +71,7 @@ class Claim extends ControllerBase {
 			die ($e->getMessage()) ;
 		}
 	}
+	
 	private function addRecord($params) {
 		$cls = new ClaimHeaderClass($this->db) ;
 		$datas = array() ;
@@ -336,13 +337,13 @@ class Claim extends ControllerBase {
 		}
 	}
 
-	private function getDeptGroup() {
+	public function getDeptGroup() {
 		$filter = array();
 		$filter[] = array('field'=>$this->fldorg,'value'=>$this->orgid) ;
 		$vls = $this->getValueList(DepartmentTable::C_TABLE, DepartmentTable::C_ID, DepartmentTable::C_DESC,array('code'=>'','desc'=>'--- Select Dept. ---'),$filter) ;
 		return Util::createOptionValue($vls) ;
 	}
-	private function getTravelPlan() {
+	public function getTravelPlan() {
 		$filter = array();
 		$filter[] = array('field'=>$this->fldorg,'value'=>$this->orgid) ;
 		$vls = $this->getValueList(TravelPlanTable::C_TABLE, TravelPlanTable::C_ID, TravelPlanTable::C_DESC,array('code'=>'','desc'=>'----- Select a Travel Plan -----'),$filter) ;

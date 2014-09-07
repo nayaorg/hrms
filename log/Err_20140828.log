@@ -1,0 +1,18 @@
+[2014-08-28 09:17:46] sqlsrv:Server=.\sqlexpress;Database=DB_HRMS
+[2014-08-28 09:17:46] [DbAdapter][open]SQLSTATE[08001]: [Microsoft][SQL Server Native Client 11.0]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF]. 
+[2014-08-28 09:22:13] processQuery
+[2014-08-28 09:22:13] processLogin : index.pzx?c=82b057b29db8a1c68a31f629ee8e331194fe572cc80db061affbdd7f2a2afbfb
+[2014-08-28 09:46:37] processQuery
+[2014-08-28 09:46:37] processLogin : index.pzx?c=edfb6eca34e278e6a9a12ce9de8f33f53d279c5c0da47a2b6efa0b9e0b5de740
+[2014-08-28 09:47:54] processQuery
+[2014-08-28 09:47:54] processLogin : index.pzx?c=8c3f20d4e47ac0cadfeb06d291c0e57ed1a8acc5d91f78070aed5f44945dec44
+[2014-08-28 09:51:08] processQuery
+[2014-08-28 09:51:08] processLogin : index.pzx?c=00f00f7317560cc2d06d708c48339ea9f85d2cfafaee2cb6dceaa7c784670618
+[2014-08-28 09:58:15] processQuery
+[2014-08-28 09:58:15] processLogin : index.pzx?c=49063112d340989f4fc54c80b31f03448351c44903f28b7a87ced0db816ca84b
+[2014-08-28 12:19:30] [WebView]session_start(): ps_files_cleanup_dir: opendir(C:\Windows\TEMP) failed: No such file or directory (2) - D:\www\hrms\code\WebView.php on line 32
+[2014-08-28 15:38:12] [WebView]session_start(): ps_files_cleanup_dir: opendir(C:\Windows\TEMP) failed: No such file or directory (2) - D:\www\hrms\code\WebView.php on line 32
+[2014-08-28 15:59:32] processQuery
+[2014-08-28 15:59:32] processLogin : index.pzx?c=065cadfc734089eafac3ebe126e4466502d1bce2581b277dee3b2821028e1ce6
+[2014-08-28 18:05:30] processQuery
+[2014-08-28 18:05:30] processLogin : index.pzx?c=00f00f7317560cc2d06d708c48339ea9f85d2cfafaee2cb6dceaa7c784670618

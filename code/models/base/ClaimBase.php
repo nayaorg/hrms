@@ -111,8 +111,17 @@ abstract class ClaimBase {
 			$sql .= " where " . $filter ;
 		if (!empty($orderby))
 			$sql .= " order by " . $orderby ;
-			
+
 		return $this->db->getTable($sql,$params) ;
+	}
+	function getTableTop($filter="",$orderby="",$params=null,$top=0) {
+		$sql = "select * from " . $this->tbl ;
+		if (!empty($filter))
+			$sql .= " where " . $filter ;
+		if (!empty($orderby))
+			$sql .= " order by " . $orderby . " DESC" ;
+	
+		return $this->db->getTable($sql,$params,$top) ;
 	}
 	function getDescription($id) {
 		$sql = "select " . $this->flddesc . " from " . $this->tbl

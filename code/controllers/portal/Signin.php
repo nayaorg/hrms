@@ -59,8 +59,8 @@ class Signin extends ControllerBase {
 		$status = "" ;
 		$mesg = "" ;
 		$data = "" ;
-		$id = "1" ;
-		$orgid = -1 ;
+		$id = "2" ;
+		$orgid = 0 ;
 		$group = "";
 		$name = "";
 		//$row = $this->user->getRecordByName(0,$username);
@@ -105,6 +105,7 @@ class Signin extends ControllerBase {
 		//		}
 		//	}
 		//}
+		
 		if ($status == "") {
 			$status = Status::Ok ;
 			//$this->user->updateLogin($id) ;

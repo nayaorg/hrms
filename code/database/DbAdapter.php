@@ -190,6 +190,9 @@ abstract class DbAdapter implements iDatabase {
 			throw new Exception(Message::DB_ERR_EXEC) ;
 		}
 	}
+	public function btwAndFieldParam($field, $firstPa, $secondPa, $prefix="") {
+		return $prefix.$field . " between '" . $firstPa . "' and '" . $secondPa ."'" ;
+	}
 	public function fieldParam($field,$logicalOperator='=',$prefix="") {
 		return $prefix.$field . " " . $logicalOperator . " :" . $field ;
 	}
