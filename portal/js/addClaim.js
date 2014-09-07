@@ -1,3 +1,5 @@
+var C_PORTAL_CLAIM = "p_e";
+
 $('#btnClaimAdd').button().bind('click',addClaim) ;
 
 
@@ -20,10 +22,9 @@ function saveClaim(type) {
 }
 
 function onClaimResponse(obj,resp) {
-	alert("ok");
-	//go back to the claim general thing
-	var data = {'type':''} ;
-	$(".content").load(home_url,data,function() {hideProgress();}) ;
+	var data = {'type':C_PORTAL_CLAIM} ;
+	var url = "index.pzx?c=" + home_url + "&t=" + C_PORTAL_CLAIM  + "&d=" + new Date().getTime() ;
+	$(".content").load(url,data,function() {hideProgress();}) ;
 }
 
 function validateClaim() {
