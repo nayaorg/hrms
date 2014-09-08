@@ -127,6 +127,7 @@ class Home extends ControllerBase {
 		$list = array() ;
 		foreach ($rows as $row) {
 			$data = array() ;
+			$data['id'] 	= $row[ClaimHeaderTable::C_ID];
 			$data['desc'] 	= $row[ClaimHeaderTable::C_DESC];
 			$data['type'] 	= $row[ClaimHeaderTable::C_TYPE] == 0 ? 'Personal' : 'Business' ;
 			$dte 			= date_create($row[ClaimHeaderTable::C_DATE]);

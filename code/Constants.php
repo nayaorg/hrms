@@ -16,6 +16,7 @@ define("SE_REMOTE_IP","remoteip") ;
 define("SE_ORGNAME", "orgname") ;
 define("SE_ORGCODE", "orgcode") ;
 
+
 define("NUM_CLAIM_SHOW",5) ;
 
 $path = $_SERVER['DOCUMENT_ROOT'] ;
@@ -83,7 +84,7 @@ define("PORTAL_CLAIM","p_e") ;
 define("PORTAL_LEAVES","p_l") ;
 define("PORTAL_CALENDAR","p_c") ;
 define("PORTAL_CLAIM_ADD_VIEW","p_c_a_v") ;
-
+define("PORTAL_CLAIM_UPDATE_VIEW","p_c_u_v") ;
 
 define("ATTENDANCE_STATUS_O", "Off Duty");
 define("ATTENDANCE_STATUS_T", "Time Off");

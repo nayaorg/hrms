@@ -31,6 +31,9 @@ class PortalClaim extends ControllerBase {
 				case PORTAL_CLAIM_ADD_VIEW:
 					$this->processViewClaimAdd();
 					break;
+				case PORTAL_CLAIM_UPDATE_VIEW:
+					$this->processViewClaimUpdate($params['id']);
+					break;
 				default:
 					$this->sendJsonResponse(Status::Error,"invalid request.","",$this->type) ;
 					break ;
@@ -90,6 +93,15 @@ class PortalClaim extends ControllerBase {
 		include (PATH_VIEWS . "portal/ClaimAddView.php") ;
 		echo Util::minifyHtml(ob_get_clean()) ;
 	}
+	private function processViewClaimUpdate($id) {
+		ob_start() ;
+		
+		$cls 	= new ClaimHeaderClass($this->db) ;
+		$row    = $cls->getRecord($id);
+		
+		include (PATH_VIEWS . "portal/ClaimAddView.php") ;
+		echo Util::minifyHtml(ob_get_clean()) ;
+	}
 	private function createMenuFunc($href,$desc,$type) {
 		return "javascript:showPage('" . Util::convertLink($href) . "','". $desc . "'". ",'" . "$type" . "')" ;
 	}
@@ -108,14 +120,14 @@ class PortalClaim extends ControllerBase {
 	}
 	
 /** CLAIM  **/	
-	private function getDepartment() {
+	private function getDepartment($dedault="") {
 		$claim = new Claim();
-		return $claim->getDeptGroup();
+		return $claim->getDeptGroup($dedault);
 	}
 	
-	private function getTravelPlan() {
+	private function getTravelPlan($dedault="") {
 		$claim = new Claim();
-		return $claim->getTravelPlan();
+		return $claim->getTravelPlan($dedault);
 	}
 
 }

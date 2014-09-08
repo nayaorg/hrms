@@ -336,18 +336,19 @@ class Claim extends ControllerBase {
 			return;
 		}
 	}
-
-	public function getDeptGroup() {
+	/*ndnguyen*/
+	public function getDeptGroup($dedault="") {
 		$filter = array();
 		$filter[] = array('field'=>$this->fldorg,'value'=>$this->orgid) ;
 		$vls = $this->getValueList(DepartmentTable::C_TABLE, DepartmentTable::C_ID, DepartmentTable::C_DESC,array('code'=>'','desc'=>'--- Select Dept. ---'),$filter) ;
-		return Util::createOptionValue($vls) ;
+		return Util::createOptionValue($vls,$dedault) ;
 	}
-	public function getTravelPlan() {
+	/*ndnguyen*/
+	public function getTravelPlan($dedault="") {
 		$filter = array();
 		$filter[] = array('field'=>$this->fldorg,'value'=>$this->orgid) ;
 		$vls = $this->getValueList(TravelPlanTable::C_TABLE, TravelPlanTable::C_ID, TravelPlanTable::C_DESC,array('code'=>'','desc'=>'----- Select a Travel Plan -----'),$filter) ;
-		return Util::createOptionValue($vls) ;
+		return Util::createOptionValue($vls,$dedault) ;
 	}
 	private function getExpenseItem() {
 		$filter = array();

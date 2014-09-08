@@ -8,6 +8,10 @@
 	max-width: 100%;
 	margin-bottom: 20px;
 }
+button {
+ 	margin-left: 2px;
+ 	margin-right: 2px;
+}
 </style>
 </head>
 
@@ -39,11 +43,12 @@
 		<table class="table table-striped" id="expense-table">
 			<thead>
 				<tr>
-					<th width="20%">Description</th>
-					<th width="20%">Type</th>
-					<th width="20%">Amount</th>
-					<th width="20%">Status</th>
-					<th width="20%">Date</th>
+					<th width="30%">Description</th>
+					<th width="10%">Type</th>
+					<th width="10%">Amount</th>
+					<th width="10%">Status</th>
+					<th width="10%">Date</th>
+					<th width="30">&nbsp</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -52,12 +57,17 @@
 				foreach ( $list as $expenseItem ) {
 					?>
 					<tr>
-					<td><?php echo $expenseItem['desc'];?></td>
-					<td><?php echo $expenseItem['type'];?></td>
-					<td><?php echo $expenseItem['amount'];?></td>
-					<td><?php echo $expenseItem['status'];?></td>
-					<td><?php echo $expenseItem['date'];?></td>
-				</tr>
+						<td><?php echo $expenseItem['desc'];?></td>
+						<td><?php echo $expenseItem['type'];?></td>
+						<td><?php echo $expenseItem['amount'];?></td>
+						<td><?php echo $expenseItem['status'];?></td>
+						<td><?php echo $expenseItem['date'];?></td>
+						<td>
+							<button onclick="return editHeader(<?php echo $expenseItem['id'];?>);" id="btnEdit" class="btn btn-primary">Edit Header</button>
+							<button onclick="return uploadDoc(<?php echo $expenseItem['id'];?>);" id="btnUpload" class="btn btn-primary">Upload Doc</button>
+							<button onclick="return addItem(<?php echo $expenseItem['id'];?>);" id="btnAdd" class="btn btn-primary">Add Item</button>
+						</td>
+					</tr>
 				<?php
 				}
 				?>
