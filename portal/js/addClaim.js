@@ -1,20 +1,26 @@
 var C_PORTAL_CLAIM = "p_e";
 
 $('#btnClaimAdd').button().bind('click',addClaim) ;
-
+$('#btnClaimEdit').button().bind('click',updateClaim) ;
 
 function addClaim() {
 	saveClaim(C_ADD) ;
 }
 
+function updateClaim() {
+	saveClaim(C_UPDATE) ;
+}
+
 function saveClaim(type) {
 	if (validateClaim()) {
-		var data = { "type": type, 
-			"desc": $('#txtClaimDesc').val(), 
-			"claim_type": $('#cobClaimType').val(), 
-			"date": $('#txtClaimDate').val(), 
-			"travel_plan": $('#cobTravelPlan').val(),
-			"claim_by": $('#cobEmpId').val(), 
+		var data = { 
+			"id"			: $('#txtClaimId').val(),
+			"type"			: type, 
+			"desc"			: $('#txtClaimDesc').val(), 
+			"claim_type"	: $('#cobClaimType').val(), 
+			"date"			: $('#txtClaimDate').val(), 
+			"travel_plan"	: $('#cobTravelPlan').val(),
+			"claim_by"		: $('#cobEmpId').val(), 
 			};
 		var url = "index.pzx?c=" + claim_url + "&d=" + new Date().getTime() ;
 		callServer(url,"json",data,onClaimResponse,null) ;

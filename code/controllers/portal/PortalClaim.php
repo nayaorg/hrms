@@ -34,6 +34,9 @@ class PortalClaim extends ControllerBase {
 				case PORTAL_CLAIM_UPDATE_VIEW:
 					$this->processViewClaimUpdate($params['id']);
 					break;
+				case REQ_UPDATE:
+					$this->updateClaimHeader($params) ;
+					break ;
 				default:
 					$this->sendJsonResponse(Status::Error,"invalid request.","",$this->type) ;
 					break ;
@@ -80,6 +83,47 @@ class PortalClaim extends ControllerBase {
 			$this->sendJsonResponse(Status::Error,"Sorry, we are unable to process your request as there is a error in database operation.","",$this->type) ;
 		}
 		unset($cls) ;
+	}
+	
+	private function updateClaimHeader($params) {
+		if (!isset($params['id'])) {
+			$this->sendJsonResponse(Status::Error,"You must supply the Claim id you wish to update. Please try again.","",$this->type);
+			return;
+		}
+		
+		$id = $params['id'] ;
+		
+		$cls = new ClaimHeaderClass($this->db) ;
+		$datas = array() ;
+		$orgid = $_SESSION[SE_ORGID] ;
+		$modifyby = $_SESSION[SE_USERID] ;
+		$modifydate = date_create('now')->format('Y-m-d H:i:s') ;
+		$ws = $_SESSION[SE_REMOTE_IP] ;
+		$claimdte = date_create('now')->format('Y-m-d') ;
+	
+		$datas[] = $this->db->fieldValue(ClaimHeaderTable::C_DESC,$this->getParam($params,'desc',"")) ;
+		$datas[] = $this->db->fieldValue(ClaimHeaderTable::C_TYPE,$this->getParamInt($params,'claim_type',0)) ;
+		$datas[] = $this->db->fieldValue(ClaimHeaderTable::C_DATE,$this->getParamDate($params,'date',$claimdte)) ;
+		$datas[] = $this->db->fieldValue(ClaimHeaderTable::C_EMP,$this->getParamInt($params,'claim_by',0)) ;
+		$datas[] = $this->db->fieldValue(ClaimHeaderTable::C_STATUS, ClaimStatus::Pending) ;
+		$datas[] = $this->db->fieldValue(ClaimHeaderTable::C_TRAVEL,$this->getParamInt($params,'travel_plan',0)) ;
+		$datas[] = $this->db->fieldValue(ClaimHeaderTable::C_COY_ID,0) ;
+		$datas[] = $this->db->fieldValue(ClaimHeaderTable::C_ORG_ID,$orgid) ;
+		$datas[] = $this->db->fieldValue(ClaimHeaderTable::C_WS_ID,$ws) ;
+		$datas[] = $this->db->fieldValue(ClaimHeaderTable::C_MODIFY_BY,$modifyby) ;
+		$datas[] = $this->db->fieldValue(ClaimHeaderTable::C_MODIFY_DATE,$modifydate) ;
+		$datas[] = $this->db->fieldValue(ClaimHeaderTable::C_CREATE_BY,$modifyby) ;
+		$datas[] = $this->db->fieldValue(ClaimHeaderTable::C_CREATE_DATE,$modifydate) ;
+	
+		try {
+			$cls->updateRecord($id,$datas) ;
+			$this->sendJsonResponse(Status::Ok,"Claim Document successfully updated to the system.",$id,$this->type);
+		} catch (Exception $e) {
+			Log::write('[Claim]' . $e->getMessage());
+			$this->sendJsonResponse(Status::Error,"Sorry, we are unable to process your request as there is a error in database operation.","",$this->type) ;
+		}
+		unset($cls) ;
+		
 	}
 	
 	private function processClaimFilter($params) {

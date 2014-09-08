@@ -12,7 +12,7 @@
 	<div class="form-group">
 		<label for="claim_id" class="col-sm-2 control-label">ID</label>
 		<div class="col-sm-6">
-			<input type="text" value="<?php if (isset($row)) echo $row[ClaimHeaderTable::C_ID];?>" class="form-control" id="claim_id"
+			<input type="text" value="<?php if (isset($row)) echo $row[ClaimHeaderTable::C_ID];?>" class="form-control" id="txtClaimId"
 				placeholder="Auto" disabled="disabled">
 		</div>
 	</div>
@@ -35,7 +35,7 @@
 				<option value="0" 
 					<?php if (isset($row)) { if ($row[ClaimHeaderTable::C_TYPE] == "0") echo "selected=\"selected\""; }?> > Personal
 				</option>
-				<option value="1">
+				<option value="1"
 					<?php if (isset($row)) { if ($row[ClaimHeaderTable::C_TYPE] == "1") echo "selected=\"selected\""; }?> > Business
 				</option>
 			</select>
@@ -86,7 +86,14 @@
 
 	<div class="form-group">
 		<div class="col-sm-offset-2 col-sm-10">
-			<button id="btnClaimAdd" class="btn btn-primary">Save</button>
+			<button 
+				<?php 
+					if(isset($row)) 
+						echo "id=\"btnClaimEdit\"";
+					else 
+						echo "id=\"btnClaimAdd\"" ?>
+			   class="btn btn-primary">Save
+		    </button>
 		</div>
 	</div>
 	
