@@ -123,7 +123,6 @@ class PortalClaim extends ControllerBase {
 			$this->sendJsonResponse(Status::Error,"Sorry, we are unable to process your request as there is a error in database operation.","",$this->type) ;
 		}
 		unset($cls) ;
-		
 	}
 	
 	private function processClaimFilter($params) {
