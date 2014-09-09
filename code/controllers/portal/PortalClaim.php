@@ -34,6 +34,12 @@ class PortalClaim extends ControllerBase {
 				case PORTAL_CLAIM_UPDATE_VIEW:
 					$this->processViewClaimUpdate($params['id']);
 					break;
+				case PORTAL_CLAIM_UPLOAD_VIEW:
+					$this->processViewClaimUpload($params['id']);
+					break;
+				case PORTAL_CLAIM_ADD_ITEM_VIEW:
+					$this->processViewClaimAddItem($params['id']);
+					break;
 				case REQ_UPDATE:
 					$this->updateClaimHeader($params) ;
 					break ;
@@ -145,6 +151,24 @@ class PortalClaim extends ControllerBase {
 		include (PATH_VIEWS . "portal/ClaimAddView.php") ;
 		echo Util::minifyHtml(ob_get_clean()) ;
 	}
+	private function processViewClaimUpload($id) {
+		ob_start() ;
+	
+		$cls 	= new ClaimHeaderClass($this->db) ;
+		$row    = $cls->getRecord($id);
+	
+		include (PATH_VIEWS . "portal/ClaimUploadView.php") ;
+		echo Util::minifyHtml(ob_get_clean()) ;
+	}
+	private function processViewClaimAddItem($id) {
+		ob_start() ;
+	
+		$cls 	= new ClaimHeaderClass($this->db) ;
+		$row    = $cls->getRecord($id);
+	
+		include (PATH_VIEWS . "portal/ClaimAddItemView.php") ;
+		echo Util::minifyHtml(ob_get_clean()) ;
+	}
 	private function createMenuFunc($href,$desc,$type) {
 		return "javascript:showPage('" . Util::convertLink($href) . "','". $desc . "'". ",'" . "$type" . "')" ;
 	}
@@ -162,15 +186,23 @@ class PortalClaim extends ControllerBase {
 		return "javascript:" . $func ;
 	}
 	
-/** CLAIM  **/	
+	
 	private function getDepartment($dedault="") {
 		$claim = new Claim();
 		return $claim->getDeptGroup($dedault);
+		unset($claim);
 	}
 	
 	private function getTravelPlan($dedault="") {
 		$claim = new Claim();
 		return $claim->getTravelPlan($dedault);
+		unset($claim);
+	}
+	
+	private function getExpenseItem($dedault="") {
+		$claim = new Claim();
+		return $claim->getExpenseItem($dedault);
+		unset($claim);
 	}
 
 }

@@ -336,31 +336,33 @@ class Claim extends ControllerBase {
 			return;
 		}
 	}
-	/*ndnguyen*/
+	/*ndnguyen change private to public and default*/
 	public function getDeptGroup($dedault="") {
 		$filter = array();
 		$filter[] = array('field'=>$this->fldorg,'value'=>$this->orgid) ;
 		$vls = $this->getValueList(DepartmentTable::C_TABLE, DepartmentTable::C_ID, DepartmentTable::C_DESC,array('code'=>'','desc'=>'--- Select Dept. ---'),$filter) ;
-		return Util::createOptionValue($vls,$dedault) ;
+		return Util::createOptionValue($vls, $dedault) ;
 	}
-	/*ndnguyen*/
+	/*ndnguyen change private to public and default*/
 	public function getTravelPlan($dedault="") {
 		$filter = array();
 		$filter[] = array('field'=>$this->fldorg,'value'=>$this->orgid) ;
 		$vls = $this->getValueList(TravelPlanTable::C_TABLE, TravelPlanTable::C_ID, TravelPlanTable::C_DESC,array('code'=>'','desc'=>'----- Select a Travel Plan -----'),$filter) ;
-		return Util::createOptionValue($vls,$dedault) ;
+		return Util::createOptionValue($vls, $dedault) ;
 	}
-	private function getExpenseItem() {
+	/*ndnguyen change private to public and default*/
+	public function getExpenseItem($dedault="") {
 		$filter = array();
 		$filter[] = array('field'=>$this->fldorg,'value'=>$this->orgid) ;
 		$vls = $this->getValueList(ExpenseItemTable::C_TABLE, ExpenseItemTable::C_ID, ExpenseItemTable::C_DESC,array('code'=>'','desc'=>'----- Select an Expense -----'),$filter) ;
-		return Util::createOptionValue($vls) ;
+		return Util::createOptionValue($vls, $dedault) ;
 	}
-	private function getCurrency() {
+	/*ndnguyen change private to public and default*/
+	public function getCurrency($dedault="") {
 		$filter = array();
 		$filter[] = array('field'=>$this->fldorg,'value'=>$this->orgid) ;
 		$vls = $this->getValueList(CurrencyTable::C_TABLE, CurrencyTable::C_ID, CurrencyTable::C_DESC,array('code'=>'','desc'=>'----- Select Currency -----'),$filter) ;
-		return Util::createOptionValue($vls) ;
+		return Util::createOptionValue($vls, $dedault) ;
 	}
 	public function getAllClaimIdOfClaimGroupMembers($claim_group_member_id_list) {
 		$cls = new ClaimHeaderClass($this->db) ;

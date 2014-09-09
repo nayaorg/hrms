@@ -15,7 +15,6 @@ class Home extends ControllerBase {
 		unset($this->db) ;
 	}
 	public function processRequest($params) {
-// 		var_dump($_SESSION[SE_USERID]);
 		$this->type = REQ_VIEW ;
 		try {
 			$this->db->open() ;

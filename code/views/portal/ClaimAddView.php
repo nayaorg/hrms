@@ -10,7 +10,7 @@
 
 <div class="form-horizontal">
 	<div class="form-group">
-		<label for="claim_id" class="col-sm-2 control-label">ID</label>
+		<label for="txtClaimId" class="col-sm-2 control-label">ID</label>
 		<div class="col-sm-6">
 			<input type="text" value="<?php if (isset($row)) echo $row[ClaimHeaderTable::C_ID];?>" class="form-control" id="txtClaimId"
 				placeholder="Auto" disabled="disabled">

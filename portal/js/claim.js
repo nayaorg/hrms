@@ -1,6 +1,8 @@
 var C_CLAIM_FILTER 	= "c_f";
 var	C_OK 			= "0";
 var C_UPDATE_VIEW	= "p_c_u_v";
+var C_UPLOAD_VIEW	= "p_c_up";
+var C_ADD_ITEM_VIEW	= "p_c_a_i";
 
 $(document).ready(function () {
 	$('#fromDate').datepicker({
@@ -19,14 +21,24 @@ function editHeader(id) {
 	var url  = "index.pzx?c=" + claim_url + "&t=" + C_UPDATE_VIEW  + "&d=" + new Date().getTime() ;
 	$(".content").load(url,data,function() {hideProgress();}) ;
 	// change breadcrum
+	
 }
 
 function uploadDoc(id) {
-	alert(id);
+	showProgress("loading Claim Header" ) ;
+	var data = { "type": C_UPLOAD_VIEW, "id" : id} ;
+	var url  = "index.pzx?c=" + claim_url + "&t=" + C_UPLOAD_VIEW  + "&d=" + new Date().getTime() ;
+	$(".content").load(url,data,function() {hideProgress();}) ;
+	// change breadcrum
+	
 }
 
 function addItem(id) {
-	alert(id);
+	showProgress("loading Claim Header" ) ;
+	var data = { "type": C_ADD_ITEM_VIEW, "id" : id} ;
+	var url  = "index.pzx?c=" + claim_url + "&t=" + C_ADD_ITEM_VIEW  + "&d=" + new Date().getTime() ;
+	$(".content").load(url,data,function() {hideProgress();}) ;
+	// change breadcrum
 }
 
 

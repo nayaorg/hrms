@@ -85,6 +85,9 @@ define("PORTAL_LEAVES","p_l") ;
 define("PORTAL_CALENDAR","p_c") ;
 define("PORTAL_CLAIM_ADD_VIEW","p_c_a_v") ;
 define("PORTAL_CLAIM_UPDATE_VIEW","p_c_u_v") ;
+define("PORTAL_CLAIM_UPLOAD_VIEW","p_c_up") ;
+define("PORTAL_CLAIM_ADD_ITEM_VIEW","p_c_a_i") ;
+
 
 define("ATTENDANCE_STATUS_O", "Off Duty");
 define("ATTENDANCE_STATUS_T", "Time Off");
