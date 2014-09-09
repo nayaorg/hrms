@@ -1,8 +1,10 @@
 var C_CLAIM_FILTER 	= "c_f";
 var	C_OK 			= "0";
 var C_UPDATE_VIEW	= "p_c_u_v";
-var C_UPLOAD_VIEW	= "p_c_up";
-var C_ADD_ITEM_VIEW	= "p_c_a_i";
+var C_UPLOAD_VIEW	= "p_c_up_v";
+var C_ADD_ITEM_VIEW	= "p_c_a_i_v";
+var C_UPLOAD		= "p_c_up";
+var C_ADD_ITEM		= "p_c_a_i";
 
 $(document).ready(function () {
 	$('#fromDate').datepicker({
@@ -40,7 +42,6 @@ function addItem(id) {
 	$(".content").load(url,data,function() {hideProgress();}) ;
 	// change breadcrum
 }
-
 
 
 function filter() {

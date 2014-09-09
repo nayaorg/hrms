@@ -153,7 +153,7 @@ class PortalClaim extends ControllerBase {
 	}
 	private function processViewClaimUpload($id) {
 		ob_start() ;
-	
+		
 		$cls 	= new ClaimHeaderClass($this->db) ;
 		$row    = $cls->getRecord($id);
 	
@@ -162,9 +162,10 @@ class PortalClaim extends ControllerBase {
 	}
 	private function processViewClaimAddItem($id) {
 		ob_start() ;
-	
-		$cls 	= new ClaimHeaderClass($this->db) ;
-		$row    = $cls->getRecord($id);
+		
+		$claim_id 	= $id;
+		$cls 		= new ClaimHeaderClass($this->db) ;
+		$row    	= $cls->getRecord($id);
 	
 		include (PATH_VIEWS . "portal/ClaimAddItemView.php") ;
 		echo Util::minifyHtml(ob_get_clean()) ;
@@ -202,6 +203,12 @@ class PortalClaim extends ControllerBase {
 	private function getExpenseItem($dedault="") {
 		$claim = new Claim();
 		return $claim->getExpenseItem($dedault);
+		unset($claim);
+	}
+	
+	private function getCurrency($default="") {
+		$claim = new Claim();
+		return $claim->getCurrency($dedault);
 		unset($claim);
 	}
 
