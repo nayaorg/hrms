@@ -402,7 +402,7 @@ class Claim extends ControllerBase {
 		unset($cls) ;
 	}
 	
-	/* ndndguyen change from private to public */
+	/* ndnguyen change from private to public */
 	public function addItems($id,$items) {
 		$cls = new ClaimDetailClass($this->db);
 		if ($items != "") {

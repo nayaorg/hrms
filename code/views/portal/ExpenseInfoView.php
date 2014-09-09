@@ -1,4 +1,3 @@
-
 <head>
 <link href="css/expense.css" rel="stylesheet">
 <script type="text/javascript" src="js/claim.js"></script>
@@ -14,6 +13,47 @@ button {
 }
 </style>
 </head>
+
+<a href="#addClaimHeaderView" role="button" class="btn btn-large btn-primary" data-toggle="modal">Launch Demo Modal</a>
+ 
+<!-- Add Claim Header Modal HTML -->
+<div id="addClaimHeaderView" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Confirmation</h4>
+            </div>
+            <div class="modal-body">
+                <p>Do you want to save changes you made to document before closing?</p>
+                <p class="text-warning"><small>If you don't save, your changes will be lost.</small></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+<div id="example" class="modal hide fade in" style="display: none; ">  
+	<div class="modal-header">  
+		<a class="close" data-dismiss="modal">×</a>  
+		<h3>This is a Modal Heading</h3>  
+	</div> 
+	 
+	<div class="modal-body">  
+		<h4>Text in a modal</h4>  
+		<p>You can add some text here.</p>                
+	</div>  
+	
+	<div class="modal-footer">  
+		<a href="#" class="btn btn-success">Call to action</a>  
+		<a href="#" class="btn" data-dismiss="modal">Close</a>  
+	</div>  
+</div>  
+
+
 
 <div class="col-md-11" style="margin-top: 20px">
 	<div class="filter-unit">
@@ -31,7 +71,7 @@ button {
 	</div>
 	
 	<div class="add-claim-btn">
-		<a href="<?php echo $this->createMenuFunc("PortalClaim","Add Claim/Expense", PORTAL_CLAIM_ADD_VIEW)?>" onclick="return changeMainHeaderAddClaim();"
+		<a href="<?php // echo $this->createMenuFunc("PortalClaim","Add Claim/Expense", PORTAL_CLAIM_ADD_VIEW)?>" onclick="return loadAddModal();"
 		   class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-plus"></span> Add</a>
 	</div>
 </div>

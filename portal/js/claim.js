@@ -17,6 +17,8 @@ $(document).ready(function () {
 });
 
 
+/* ADD/EDIT CLAIM HEADER*/
+
 function editHeader(id) {
 	showProgress("loading Claim Header" ) ;
 	var data = { "type": C_UPDATE_VIEW, "id" : id} ;
@@ -43,7 +45,7 @@ function addItem(id) {
 	// change breadcrum
 }
 
-
+/* FILTER BAR */
 function filter() {
 	var fromDate = document.getElementById('fromDate').value;
 	var toDate 	 = document.getElementById('toDate').value;
@@ -89,3 +91,4 @@ function onClaimResponse(obj,resp) {
 		$('#expense-table').append("</tbody>");
 	}
 }
+/* END FILTER BAR */
