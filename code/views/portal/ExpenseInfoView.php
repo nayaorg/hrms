@@ -1,6 +1,7 @@
 <head>
 <link href="css/expense.css" rel="stylesheet">
 <script type="text/javascript" src="js/claim.js"></script>
+<script type="text/javascript" src="js/addClaim.js"></script>
 <style type="text/css">
 .table {
 	width: 100%;
@@ -11,49 +12,34 @@ button {
  	margin-left: 2px;
  	margin-right: 2px;
 }
+label {
+	font-weight: normal !important;
+}
 </style>
 </head>
 
-<a href="#addClaimHeaderView" role="button" class="btn btn-large btn-primary" data-toggle="modal">Launch Demo Modal</a>
- 
 <!-- Add Claim Header Modal HTML -->
 <div id="addClaimHeaderView" class="modal fade">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">Confirmation</h4>
+                <h4 class="modal-title">Add Claim Header</h4>
             </div>
             <div class="modal-body">
-                <p>Do you want to save changes you made to document before closing?</p>
-                <p class="text-warning"><small>If you don't save, your changes will be lost.</small></p>
+	            <div id="modalAddViewContent">
+					<?php include 'ClaimAddView.php'; ?>
+	        	</div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+            	<div id="modalAddViewButtonContent">
+	                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	                <button id="btnClaimAdd" class="btn btn-primary" onclick="return addClaim();">Save </button>
+			   </div>
             </div>
         </div>
     </div>
 </div>
- 
-<div id="example" class="modal hide fade in" style="display: none; ">  
-	<div class="modal-header">  
-		<a class="close" data-dismiss="modal">×</a>  
-		<h3>This is a Modal Heading</h3>  
-	</div> 
-	 
-	<div class="modal-body">  
-		<h4>Text in a modal</h4>  
-		<p>You can add some text here.</p>                
-	</div>  
-	
-	<div class="modal-footer">  
-		<a href="#" class="btn btn-success">Call to action</a>  
-		<a href="#" class="btn" data-dismiss="modal">Close</a>  
-	</div>  
-</div>  
-
-
 
 <div class="col-md-11" style="margin-top: 20px">
 	<div class="filter-unit">
@@ -71,8 +57,7 @@ button {
 	</div>
 	
 	<div class="add-claim-btn">
-		<a href="<?php // echo $this->createMenuFunc("PortalClaim","Add Claim/Expense", PORTAL_CLAIM_ADD_VIEW)?>" onclick="return loadAddModal();"
-		   class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-plus"></span> Add</a>
+		<a href="#addClaimHeaderView" role="button" class="btn btn-primary btn-sm" data-toggle="modal"><span class="glyphicon glyphicon-plus"></span> Add</a>
 	</div>
 </div>
 
@@ -103,9 +88,12 @@ button {
 						<td><?php echo $expenseItem['status'];?></td>
 						<td><?php echo $expenseItem['date'];?></td>
 						<td>
-							<button onclick="return editHeader(<?php echo $expenseItem['id'];?>);" id="btnEdit" class="btn btn-primary">Edit Header</button>
-							<button onclick="return uploadDoc(<?php echo $expenseItem['id'];?>);" id="btnUpload" class="btn btn-primary">Upload Doc</button>
-							<button onclick="return addItem(<?php echo $expenseItem['id'];?>);" id="btnAdd" class="btn btn-primary">Add Item</button>
+							<a role="button" onclick="return editHeader(<?php echo $expenseItem['id'];?>);" id="btnEdit" class="btn btn-primary">Edit Header</a>
+							<a role="button" onclick="return uploadDoc(<?php echo $expenseItem['id'];?>);" id="btnUpload" class="btn btn-primary">Upload Doc</a>
+							<a role="button" onclick="return editHeader(<?php echo $expenseItem['id'];?>);" id="btnEdit" class="btn btn-primary">Edit Header</a>
+							
+							
+							<button onclick="return test(<?php echo $expenseItem['id'];?>, this);" id="btnEdit" class="btn btn-primary">Test add modal</button>
 						</td>
 					</tr>
 				<?php
@@ -116,13 +104,14 @@ button {
 	</div>
 </div>
 
-<?php $arrNav = $this->getAddClaimNavigation();?>
+<?php //$arrNav = $this->getAddClaimNavigation();?>
 <script>
+				// delete later
 	function changeMainHeaderAddClaim() {
-		var navNameArr = <?php echo json_encode($arrNav[0])?>;
-		var navURLArr  = <?php echo json_encode($arrNav[1])?>;
-		var navMenuActiveLArr  = <?php echo json_encode($arrNav[2])?>;
-		changeMainHeader(navNameArr, navURLArr, navMenuActiveLArr);
+//		var navNameArr = <?php// echo json_encode($arrNav[0])?>;
+//		var navURLArr  = <?php// echo json_encode($arrNav[1])?>;
+//		var navMenuActiveLArr  = <?php// echo json_encode($arrNav[2])?>;
+// 		changeMainHeader(navNameArr, navURLArr, navMenuActiveLArr);
 	}
 </script>
 

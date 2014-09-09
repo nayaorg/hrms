@@ -28,9 +28,6 @@ class PortalClaim extends ControllerBase {
 				case REQ_CLAIM_FILTER:
 					$this->processClaimFilter($params);
 					break;	
-				case PORTAL_CLAIM_ADD_VIEW:
-					$this->processViewClaimAdd();
-					break;
 				case PORTAL_CLAIM_UPDATE_VIEW:
 					$this->processViewClaimUpdate($params['id']);
 					break;
@@ -140,11 +137,6 @@ class PortalClaim extends ControllerBase {
 		$this->sendJsonResponse(Status::Ok,"",$list,$this->type);
 		unset($list);
 	}
-	private function processViewClaimAdd() {
-		ob_start() ;
-		include (PATH_VIEWS . "portal/ClaimAddView.php") ;
-		echo Util::minifyHtml(ob_get_clean()) ;
-	}
 	private function processViewClaimUpdate($id) {
 		ob_start() ;
 		
@@ -152,7 +144,9 @@ class PortalClaim extends ControllerBase {
 		$row    = $cls->getRecord($id);
 		
 		include (PATH_VIEWS . "portal/ClaimAddView.php") ;
-		echo Util::minifyHtml(ob_get_clean()) ;
+		$editHeaderContent =  Util::minifyHtml(ob_get_clean()) ;
+		
+		$this->sendJsonResponse(Status::Ok,"Claim Header Edit Contentsss",$editHeaderContent,$this->type);
 	}
 	private function processViewClaimUpload($id) {
 		ob_start() ;

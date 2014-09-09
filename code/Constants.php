@@ -83,7 +83,6 @@ define("PORTAL_HOME","p_h") ;
 define("PORTAL_CLAIM","p_e") ;
 define("PORTAL_LEAVES","p_l") ;
 define("PORTAL_CALENDAR","p_c") ;
-define("PORTAL_CLAIM_ADD_VIEW","p_c_a_v") ;
 define("PORTAL_CLAIM_UPDATE_VIEW","p_c_u_v") ;
 define("PORTAL_CLAIM_UPLOAD_VIEW","p_c_up_v") ;
 define("PORTAL_CLAIM_ADD_ITEM_VIEW","p_c_a_i_v") ;

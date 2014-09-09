@@ -164,6 +164,7 @@ class Home extends ControllerBase {
 
 	
 /* NAVIGATION PURPOSE ONLY */
+/*
 	private function getAddClaimNavigation() {
 		$arrName 		= array();
 		$arrURL	 		= array();
@@ -183,7 +184,7 @@ class Home extends ControllerBase {
 		
 		return array($arrName, $arrURL, $arrMenuActive);
 	}
-	
+*/
 	private function getHomeNavigation() {
 		$arrName 		= array();
 		$arrURL	 		= array();

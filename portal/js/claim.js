@@ -6,6 +6,9 @@ var C_ADD_ITEM_VIEW	= "p_c_a_i_v";
 var C_UPLOAD		= "p_c_up";
 var C_ADD_ITEM		= "p_c_a_i";
 
+var claim_obj = null;
+
+
 $(document).ready(function () {
 	$('#fromDate').datepicker({
 	    format: "dd/mm/yyyy"
@@ -14,10 +17,40 @@ $(document).ready(function () {
 	$('#toDate').datepicker({
 	    format: "dd/mm/yyyy"
 	});
+	
+	$('#txtClaimDate').datepicker({
+	    format: "dd/mm/yyyy"
+	});
 });
 
 
-/* ADD/EDIT CLAIM HEADER*/
+function test(id, obj) {
+	claim_obj = obj ;
+	showProgress("loading Claim Header" ) ;
+	var data = { "type": C_UPDATE_VIEW, "id" : id} ;
+	var url  = "index.pzx?c=" + claim_url + "&t=" + C_UPDATE_VIEW  + "&d=" + new Date().getTime() ;
+	
+	$.ajax({
+		url: url,
+		success: function(response) {
+			hideProgress(); 
+			$("#addClaimHeaderView").modal("show");
+			$('#modalAddViewContent').show().html(response.data);
+			
+			strBtn = "<button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button> "+ 
+	                 "<button id=\"btnClaimEdit\" class=\"btn btn-primary\" onclick=\"return updateClaim();\">Save </button>";
+			$('#modalAddViewButtonContent').show().html(strBtn);
+		},
+		error: onError,
+		data: data,
+		dataType: "json",
+		cache: false,
+		async: true,
+		type: "POST",
+		timeout: 30000
+	});
+}
+
 
 function editHeader(id) {
 	showProgress("loading Claim Header" ) ;
