@@ -43,6 +43,9 @@ function getItemList(){
 	
 	$('#tblItems tr').each(function() { 
 		id = $(this).find("td").eq(0).html() ;
+		if(!$('#txtItemDesc' + id).val())
+			return;
+			
 		var str = id + '^' + 
 					$('#txtItemDesc' + id).val() + '^' +
 					$('#txtItemItemId' + id).val() + '^' +

@@ -40,6 +40,9 @@ class PortalClaim extends ControllerBase {
 				case PORTAL_CLAIM_ADD_ITEM_VIEW:
 					$this->processViewClaimAddItem($params['id']);
 					break;
+				case PORTAL_CLAIM_ADD_ITEM:
+					$this->processClaimAddItem($params);
+					break;
 				case REQ_UPDATE:
 					$this->updateClaimHeader($params) ;
 					break ;
@@ -170,6 +173,19 @@ class PortalClaim extends ControllerBase {
 		include (PATH_VIEWS . "portal/ClaimAddItemView.php") ;
 		echo Util::minifyHtml(ob_get_clean()) ;
 	}
+	private function processClaimAddItem($params) {
+		if (!isset($params['id'])) {
+			$this->sendJsonResponse(Status::Error,"You must supply the Claim id you wish to update. Please try again.","",$this->type);
+			return;
+		}
+		
+		$claimId = $params['id'] ;
+		
+		$claim = new Claim();
+		$claim->addItems($claimId,$this->getParam($params,'items_data',""));
+		$this->sendJsonResponse(Status::Ok,"Claim successfully added to the system.",$id,$this->type);
+	}
+	
 	private function createMenuFunc($href,$desc,$type) {
 		return "javascript:showPage('" . Util::convertLink($href) . "','". $desc . "'". ",'" . "$type" . "')" ;
 	}

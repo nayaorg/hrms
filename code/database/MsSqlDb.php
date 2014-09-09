@@ -52,6 +52,7 @@ class MsSqlDb extends DbAdapter {
 					$stmt->bindValue($param['field'],$param['value']) ;
 				}
 			}
+			
 			$stmt->execute();
 			$stmt->nextRowset() ;
 			$id = $stmt->fetchColumn() ; 
